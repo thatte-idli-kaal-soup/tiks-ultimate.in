@@ -2,7 +2,8 @@
 set -e
 
 PUBLIC_DIR="public"
-GIT_URL=$(git remote get-url origin)
+GIT_URL="https://github.com/punchagan/thatte-idli.git"
+GIT_URL=$(echo $GIT_URL|sed -e s/github.com/punchagan:"${GITHUB_TOKEN}"@github.com/g)
 
 # Build the site
 rm -rf "${PUBLIC_DIR}"
