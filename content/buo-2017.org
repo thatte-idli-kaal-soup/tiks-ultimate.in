@@ -6,7 +6,7 @@ draft: false
 #+STARTUP: indent
 
 
-[[file:/images/buo-2017-logo.jpg]]
+[[file:../images/buo-2017-logo.jpg]]
 
 The Ultimate Player Association of India and Bangalore Ultimate present USHA BUO 2017!
 
@@ -20,9 +20,11 @@ TBD
 * Rules
 - WFDF 2017 Rules will be followed.
 - XXX Copy other rules from MUO doc?
+
 * Spirit
 - Spirit scoring will be done online
 - XXX PlayO details
+
 * Venue
 ** Venue restrictions
 
