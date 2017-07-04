@@ -1,0 +1,26 @@
+# Page settings
+baseurl = "localhost:1313"
+title = "USHA BUO 2017"
+languageCode = "en-us"
+theme = "hugo-xmin"
+
+
+[[menu.main]]
+    name = "Tournament Format"
+    url = "/buo-2017/#tournament-format"
+    weight = 2
+[[menu.main]]
+    name = "Venue"
+    url = "/buo-2017/#venue"
+    weight = 3
+[[menu.main]]
+    name = "Sponsors"
+    url = "/buo-2017/#sponsors"
+    weight = 4
+[[menu.main]]
+    name = "Contact"
+    url = "/buo-2017/#contact-information"
+
+[params]
+    description = "USHS BUO 2017 - information brochure for teams"
+    footer = "&copy; [Bangalore Ultimate](http://bangaloreultimate.com) 2017 | [Facebook](https://www.facebook.com/BangaloreUltimate/)"
