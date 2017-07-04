@@ -2,8 +2,14 @@
 set -e
 
 PUBLIC_DIR="public"
-GIT_URL="https://github.com/punchagan/thatte-idli.git"
-GIT_URL=$(echo $GIT_URL|sed -e s/github.com/punchagan:"${GITHUB_TOKEN}"@github.com/g)
+
+if [ -z "${GITHUB_TOKEN}" ]
+then
+    GIT_URL=$(git remote get-url origin)
+else
+    GIT_URL="https://github.com/punchagan/thatte-idli.git"
+    GIT_URL=$(echo $GIT_URL|sed -e s/github.com/punchagan:"${GITHUB_TOKEN}"@github.com/g)
+fi
 
 # Build the site
 pushd $(dirname $0)
