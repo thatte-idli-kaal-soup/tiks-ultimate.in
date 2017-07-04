@@ -6,6 +6,7 @@ GIT_URL="https://github.com/punchagan/thatte-idli.git"
 GIT_URL=$(echo $GIT_URL|sed -e s/github.com/punchagan:"${GITHUB_TOKEN}"@github.com/g)
 
 # Build the site
+pushd $(dirname $0)
 rm -rf "${PUBLIC_DIR}"
 hugo
 
@@ -17,4 +18,6 @@ git config user.name "TravisCI auto commit"
 git add .
 git commit -m "Deploy to GitHub Pages"
 git push --force --quiet "${GIT_URL}" master:gh-pages
+popd
+
 popd
