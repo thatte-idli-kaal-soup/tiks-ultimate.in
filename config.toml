@@ -8,18 +8,15 @@ theme = "hugo-xmin"
 [[menu.main]]
     name = "Tournament Format"
     url = "./buo-2017/#tournament-format"
-    weight = 2
+    weight = 1
 [[menu.main]]
     name = "Venue"
     url = "./buo-2017/#venue"
-    weight = 3
-[[menu.main]]
-    name = "Sponsors"
-    url = "./buo-2017/#sponsors"
-    weight = 4
+    weight = 2
 [[menu.main]]
     name = "Contact"
     url = "./buo-2017/#contact-information"
+    weight = 3
 
 [params]
     description = "USHS BUO 2017 - information brochure for teams"
