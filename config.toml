@@ -1,23 +1,6 @@
 # Page settings
 baseurl = "https://punchagan.github.io/thatte-idli/"
-title = "USHA BUO 2017"
 languageCode = "en-us"
 theme = "hugo-xmin"
 
-
-[[menu.main]]
-    name = "Tournament Format"
-    url = "./buo-2017/#tournament-format"
-    weight = 1
-[[menu.main]]
-    name = "Venue"
-    url = "./buo-2017/#venue"
-    weight = 2
-[[menu.main]]
-    name = "Contact"
-    url = "./buo-2017/#contact-information"
-    weight = 3
-
 [params]
-    description = "USHS BUO 2017 - information brochure for teams"
-    footer = "&copy; [Bangalore Ultimate](http://bangaloreultimate.com) 2017 | [Facebook](https://www.facebook.com/BangaloreUltimate/)"
