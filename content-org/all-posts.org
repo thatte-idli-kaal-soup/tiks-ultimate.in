@@ -21,18 +21,37 @@
 | +Aug 12+ | IISc HAT        | IISc HAT         |
 | Aug 19   | 2 vs. 4         | 1 vs. 3          |
 | Aug 26   | 1 vs. 4         | 2 vs. 3          |
-| Sep 2    | 1 vs. 2         | 3 vs. 4          |
-| Sep 9    | 2 vs. 4         | 1 vs. 3          |
-| Sep 16   | 1 vs. 4         | 2 vs. 3          |
+| Sep 2    | 1 vs. 3         | 2 vs. 4          |
+| Sep 9    | 3 vs. 4         | 1 vs. 2          |
+| Sep 16   | 2 vs. 3         | 1 vs. 4          |
 | Sep 23   | Semi-final 1    | Semi-final 2     |
 | Sep 30   | Final           | Feedback/Closing |
+
+*1*: Hubba Hubba,  *2*: GST, *3*: Discpickable Us 3, *4*: Force Four
 
 The schedule is *tentative* and is subject to change, as the league progresses.
 Captains will be notified of any changes.
 
-*** Points table
+*** Scores and Points table
 
-The points table will be updated once the league gets underway ...
+| A                 |     |     | B            |
+|-------------------+-----+-----+--------------|
+| *Hubba Hubba*     | *9* |   1 | GST          |
+| Discpickable Us 3 |   6 | *9* | *Force Four* |
+
+#+TBLFM: $1 = '(identity remote(full-table, @@#$1))
+#+TBLFM: $2 = '(identity remote(full-table, @@#$2))
+#+TBLFM: $3 = '(identity remote(full-table, @@#$6))
+#+TBLFM: $4 = '(identity remote(full-table, @@#$7))
+
+**** COMMENT Full points table
+
+#+NAME: full-table
+| A                 |     | MVP  | MSP  | Best-play |     | B            | MVP          | MSP  | Best-play      |
+|-------------------+-----+------+------+-----------+-----+--------------+--------------+------+----------------|
+| *Hubba Hubba*     | *9* | Dose | Nico | -         |   1 | GST          | Pavan & Niki | Yogi | Vinuth to Yogi |
+| Discpickable Us 3 |   6 | Sasi | VK   | Venkata   | *9* | *Force Four* | Krish        | KK   | Amith to Punch |
+
 
 *** League format and Rules
 

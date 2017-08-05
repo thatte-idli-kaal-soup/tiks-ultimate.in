@@ -11,19 +11,24 @@ Aug 5      | 1 vs. 2         | 3 vs. 4
 ~~Aug 12~~ | IISc HAT        | IISc HAT
 Aug 19     | 2 vs. 4         | 1 vs. 3
 Aug 26     | 1 vs. 4         | 2 vs. 3
-Sep 2      | 1 vs. 2         | 3 vs. 4
-Sep 9      | 2 vs. 4         | 1 vs. 3
-Sep 16     | 1 vs. 4         | 2 vs. 3
+Sep 2      | 1 vs. 3         | 2 vs. 4
+Sep 9      | 3 vs. 4         | 1 vs. 2
+Sep 16     | 2 vs. 3         | 1 vs. 4
 Sep 23     | Semi-final 1    | Semi-final 2
 Sep 30     | Final           | Feedback/Closing
+
+**1**: Hubba Hubba,  **2**: GST, **3**: Discpickable Us 3, **4**: Force Four
 
 The schedule is **tentative** and is subject to change, as the league progresses.
 Captains will be notified of any changes.
 
 
-## Points table {#points-table}
+## Scores and Points table {#scores-and-points-table}
 
-The points table will be updated once the league gets underway ...
+A                 |       |       | B
+------------------|-------|-------|---------------
+**Hubba Hubba**   | **9** | 1     | GST
+Discpickable Us 3 | 6     | **9** | **Force Four**
 
 
 ## League format and Rules {#league-format-and-rules}
