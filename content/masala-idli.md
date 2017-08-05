@@ -31,6 +31,15 @@ A                 |       |       | B
 Discpickable Us 3 | 6     | **9** | **Force Four**
 
 
+## Moments and memories {#moments-and-memories}
+
+{{< instagram BXZzh2HhsvF >}}
+
+{{< instagram BXZS2h2Bu5J hidecaption >}}
+
+{{< instagram BXZTgwrhtSW hidecaption >}}
+
+
 ## League format and Rules {#league-format-and-rules}
 
 -   **Rules:** Games will use the [WFDF 2017](https://rules.wfdf.org/) rules for the tournament.
