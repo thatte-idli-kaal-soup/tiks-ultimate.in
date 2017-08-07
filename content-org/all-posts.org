@@ -93,7 +93,6 @@ Captains will be notified of any changes.
   - The /next scheduled game will begin 5 minutes later/. Teams playing the
     second game are expected to line up by *6:30 am* if the first game gets
     forfeited. Please reach the field accordingly.
-
 - Time between pulls :: Teams are encouraged to start the next point as quickly
      as they can. Rush back to the end-zone after each point, and aim to start
      within 75 seconds after a point has started. These rules may be enforced,
@@ -103,20 +102,16 @@ Captains will be notified of any changes.
      Ideally, we would like a 4:3 or even 3:4 ratio, but based on the turnout on
      a given day, the captains can agree to play 5:2. Teams are also encouraged
      to play 4:3 against a 5:2 line, if the players are happy to do so.
-
 - Points will be awarded to teams in the following categories
-
   1) TIKS league:
      - Win/Loss
      - Best Spirit
      - Best Play
-
   2) "Ulti-MATE" - individual event when your team is not playing
      - Hitting the cone (any throw)
      - Longest Huck
      - Longest Pull
      - few more to come ...
-
   3) "friEND-ZONEd" - team event post both the games
      - Most pushups with High Five in a minute (2 people)
      - Relay between cones (4 people)

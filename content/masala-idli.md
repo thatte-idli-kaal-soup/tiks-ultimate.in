@@ -82,7 +82,6 @@ Discpickable Us 3 | 6     | **9** | **Force Four**
     Ideally, we would like a 4:3 or even 3:4 ratio, but based on the turnout on
     a given day, the captains can agree to play 5:2. Teams are also encouraged
     to play 4:3 against a 5:2 line, if the players are happy to do so.
-
 -   Points will be awarded to teams in the following categories
     1.  TIKS league:
         -   Win/Loss
@@ -98,7 +97,6 @@ Discpickable Us 3 | 6     | **9** | **Force Four**
         -   Relay between cones (4 people)
         -   40 yard dash carrying a team member (2 people)
         -   many more to come ...
-<!--listend-->
 
 
 ## Teams {#teams}
