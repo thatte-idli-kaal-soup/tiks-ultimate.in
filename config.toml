@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "https://punchagan.github.io/thatte-idli/"
+baseurl = "http://thatteidlikaalsoup.team"
 languageCode = "en-us"
 theme = "hugo-xmin"
 
