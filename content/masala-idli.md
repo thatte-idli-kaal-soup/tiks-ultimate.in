@@ -26,9 +26,11 @@ Captains will be notified of any changes.
 ## Scores and Points table {#scores-and-points-table}
 
 A                 |       |       | B
-------------------|-------|-------|---------------
+------------------|-------|-------|-----------------------
 **Hubba Hubba**   | **9** | 1     | GST
 Discpickable Us 3 | 6     | **9** | **Force Four**
+GST               | 4     | **8** | **Force Four**
+Hubba Hubba       | 5     | 9     | **Disccpickable Us 3**
 
 
 ## Moments and memories {#moments-and-memories}

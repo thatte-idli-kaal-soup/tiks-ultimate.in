@@ -34,11 +34,12 @@ Captains will be notified of any changes.
 
 *** Scores and Points table
 
-| A                 |     |     | B            |
-|-------------------+-----+-----+--------------|
-| *Hubba Hubba*     | *9* |   1 | GST          |
-| Discpickable Us 3 |   6 | *9* | *Force Four* |
-
+| A                 |     |     | B                    |
+|-------------------+-----+-----+----------------------|
+| *Hubba Hubba*     | *9* |   1 | GST                  |
+| Discpickable Us 3 |   6 | *9* | *Force Four*         |
+| GST               |   4 | *8* | *Force Four*         |
+| Hubba Hubba       |   5 |   9 | *Disccpickable Us 3* |
 #+TBLFM: $1 = '(identity remote(full-table, @@#$1))
 #+TBLFM: $2 = '(identity remote(full-table, @@#$2))
 #+TBLFM: $3 = '(identity remote(full-table, @@#$6))
@@ -47,10 +48,12 @@ Captains will be notified of any changes.
 **** COMMENT Full points table
 
 #+NAME: full-table
-| A                 |     | MVP  | MSP  | Best-play |     | B            | MVP          | MSP  | Best-play      |
-|-------------------+-----+------+------+-----------+-----+--------------+--------------+------+----------------|
-| *Hubba Hubba*     | *9* | Dose | Nico | -         |   1 | GST          | Pavan & Niki | Yogi | Vinuth to Yogi |
-| Discpickable Us 3 |   6 | Sasi | VK   | Venkata   | *9* | *Force Four* | Krish        | KK   | Amith to Punch |
+| A                 |     | MVP    | MSP    | Best-play             |     | B                    | MVP           | MSP  | Best-play        |
+|-------------------+-----+--------+--------+-----------------------+-----+----------------------+---------------+------+------------------|
+| *Hubba Hubba*     | *9* | Dose   | Nico   | -                     |   1 | GST                  | Pavan & Nikki | Yogi | Vinuth (to Yogi) |
+| Discpickable Us 3 |   6 | Sasi   | VK     | Venkata               | *9* | *Force Four*         | Krish         | KK   | Amith (to Punch) |
+| GST               |   4 | Nikki  | Vinuth | Yogi (end-zone catch) | *8* | *Force Four*         | Rajan & Saqqu | Team | Danish           |
+| Hubba Hubba       |   5 | Birdie | Team   | Kasi                  |   9 | *Disccpickable Us 3* | VK & Sheetal  | -    | Anirudh          |
 
 *** Moments and memories
 
