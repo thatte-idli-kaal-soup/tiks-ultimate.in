@@ -5,9 +5,9 @@ theme = "beautifulhugo"
 title = "Thatte Idli Kaal Soup"
 
 [params]
-  subtitle = "A food-loving Ultimate Frisbee team from Bangalore"
-  # logo = "images/buo-2017-logo.jpg"
-  # favicon = "img/favicon.ico"
+  subtitle = "A food-loving Ultimate Frisbee club from Bangalore"
+  logo = "images/tiks-logo.png"
+  favicon = "images/tiks-logo.ico"
   dateFormat = "January 2, 2006"
   rss = true
   commit = false
