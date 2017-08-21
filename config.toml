@@ -1,6 +1,31 @@
 # Page settings
 baseurl = "http://thatteidlikaalsoup.team"
 languageCode = "en-us"
-theme = "hugo-xmin"
+theme = "beautifulhugo"
+title = "Thatte Idli Kaal Soup"
 
 [params]
+  subtitle = "A food-loving Ultimate Frisbee team from Bangalore"
+  # logo = "images/buo-2017-logo.jpg"
+  # favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  rss = true
+  commit = false
+  comments = false
+
+[author]
+  email = "tiks.india.ultimate@gmail.com"
+  facebook = "Thatte-Idli-Kaal-Soup-448323595322728"
+  instagram = "thatteidlikaalsoup"
+  # youtube = "user/username" # or channel/channelname
+
+
+[[menu.main]]
+    name = "Masala Idli"
+    url = "masala-idli/"
+    weight = 1
+
+[[menu.main]]
+    name = "BUO 2017"
+    url = "buo-2017/"
+    weight = 2
