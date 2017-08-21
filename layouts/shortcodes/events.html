@@ -193,6 +193,9 @@
                 <div class="date"> {{$tournament}} </div>
                 {{ range $team, $event := . }}
                 <h2>{{ $team }}</h2>
+                {{ if .photo }}
+                <img src="{{.photo}}" />
+                {{ end }}
                 <p>Captain: {{ .captain }}</p>
                 <p>Position: {{ .position }}</p>
                 {{ end }}
