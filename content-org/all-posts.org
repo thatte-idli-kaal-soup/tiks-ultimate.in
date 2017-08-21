@@ -128,3 +128,19 @@ Captains will be notified of any changes.
 <p data-height="1000" data-theme-id="light" data-slug-hash="zdKxaN" data-default-tab="result" data-user="punchagan" data-embed-version="2" data-pen-title="TIKS Leage — Masala Idli Edition" class="codepen">See the Pen <a href="https://codepen.io/punchagan/pen/zdKxaN/">TIKS Leage — Masala Idli Edition</a> by Puneeth Chaganti (<a href="https://codepen.io/punchagan">@punchagan</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 #+END_EXPORT
+** DONE About Us
+:PROPERTIES:
+:EXPORT_FILE_NAME: about
+:EXPORT_DATE: 2017-08-21T19:39:01+05:30
+:END:
+
+Thatte Idli Kaal Soup is a food-loving Ultimate Frisbee club from Bangalore. It
+currently has three teams as a part of the club:
+
+1. TIKS
+2. Dabaki
+3. Discturbia
+
+Below is a timeline of some of the major events for the club
+
+{{% events %}}

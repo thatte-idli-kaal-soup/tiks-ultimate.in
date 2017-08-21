@@ -1,0 +1,21 @@
+tournaments:
+- BUO-2017:
+    TIKS:
+      captain: Aishu
+      position: 12
+    Dabaki:
+      captain: Kale
+      position: 12
+
+- MUO-2017:
+    TIKS:
+      captain: Aishu
+      position: 12
+    Dabaki:
+      captain: Birdie
+      position: 12
+
+- AUO-2017:
+    TIKS:
+      captain: Aishu
+      position: 12
