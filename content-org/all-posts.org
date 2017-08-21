@@ -9,9 +9,10 @@
 :END:
 
 ** DONE TIKS League — Masala Idli
-   :PROPERTIES:
-   :EXPORT_FILE_NAME: masala-idli
-   :END:
+:PROPERTIES:
+:EXPORT_FILE_NAME: masala-idli
+:EXPORT_DATE: 2017-08-21T14:39:01+05:30
+:END:
 
 *** League Schedule
 
