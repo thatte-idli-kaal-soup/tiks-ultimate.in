@@ -73,7 +73,6 @@
  }
 
  .timeline a {
-     background: #3F51B5;
      color: #FFFFFF;
      padding: 8px 20px;
      text-transform: uppercase;
@@ -81,11 +80,8 @@
      margin-bottom: 20px;
      margin-top: 10px;
      display: inline-block;
-     border-radius: 2px;
-     box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
  }
  .timeline a:hover, a:active, a:focus {
-     background: #32408f;
      color: #FFFFFF;
      text-decoration: none;
  }
@@ -191,10 +187,16 @@
             <div class="timeline-img"></div>
             <div class="timeline-content">
                 <div class="date"> {{$tournament}} </div>
-                {{ range $team, $event := . }}
-                <h2>{{ $team }}</h2>
+                {{ range $team, $event := $team_events }}
+                <h2>
+                    {{ if gt (len $team_events) 1  }}
+                    {{ $team }}
+                    {{ end }}
+                </h2>
                 {{ if .photo }}
-                <img src="{{.photo}}" />
+                <a href="{{.photo}}" target="_blank">
+                    <img src="{{.photo}}" />
+                </a>
                 {{ end }}
                 <p>Captain: {{ .captain }}</p>
                 <p>Position: {{ .position }}</p>
