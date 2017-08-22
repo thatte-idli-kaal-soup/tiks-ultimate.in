@@ -1,24 +1,41 @@
 tournaments:
 - BUO-2017:
-    TIKS:
-      captain: Aishu
+    - team: TIKS
       position: 12
-      photo: https://scontent.fblr2-1.fna.fbcdn.net/v/t31.0-8/14124378_658919457596473_3412496361020321294_o.jpg?oh=54f005261ffd2a6e5f29a9f17ff9cf50&oe=5A25BF19
-    Dabaki:
-      captain: Kale
+    - team: Dabaki
       position: 12
+      photo: "https://instagram.fbom1-1.fna.fbcdn.net/t51.2885-15/e35/20347770_847093995449536_5271581810445254656_n.jpg"
 
 - MUO-2017:
-    TIKS:
-      captain: Aishu
+    - team: TIKS
+      position: 11
+    - team: Dabaki
       position: 12
-      photo: https://scontent.fblr2-1.fna.fbcdn.net/v/t31.0-8/14124378_658919457596473_3412496361020321294_o.jpg?oh=54f005261ffd2a6e5f29a9f17ff9cf50&oe=5A25BF19
-    Dabaki:
-      captain: Birdie
-      position: 12
+      photo: "https://instagram.fbom1-1.fna.fbcdn.net/t51.2885-15/e35/17493708_494124477377848_4094232791011557376_n.jpg"
 
 - AUO-2017:
-    TIKS:
-      captain: Aishu
-      position: 12
-      photo: https://scontent.fblr2-1.fna.fbcdn.net/v/t31.0-8/14124378_658919457596473_3412496361020321294_o.jpg?oh=54f005261ffd2a6e5f29a9f17ff9cf50&oe=5A25BF19
+    - team: TIKS
+      position: 8
+      photo: "https://scontent.fblr2-1.fna.fbcdn.net/v/t31.0-8/14124378_658919457596473_3412496361020321294_o.jpg?oh=54f005261ffd2a6e5f29a9f17ff9cf50&oe=5A25BF19"
+
+- BUO-2016:
+    - team: TIKS
+      position: 11
+      photo: "https://scontent.fblr2-1.fna.fbcdn.net/v/t31.0-8/14124378_658919457596473_3412496361020321294_o.jpg?oh=54f005261ffd2a6e5f29a9f17ff9cf50&oe=5A25BF19"
+
+- March-2016:
+    - team: Dabaki
+      photo: "https://instagram.fblr2-1.fna.fbcdn.net/t51.2885-15/e35/17076066_1889687237931826_5023099432472674304_n.jpg"
+      text: "\"And suddenly... It's time to start something new and trust the magic of beginnings\" -- the birth of Dabaki"
+
+- AUO-2016:
+    - team: TIKS
+      photo: "https://scontent.fbom1-1.fna.fbcdn.net/v/t31.0-8/12493538_559904474164639_2572705934556014733_o.jpg?oh=2a5e57aa44b8e41f29ff3fa510ce3b07&oe=5A269E60"
+
+- BUO-2015:
+    - team: TIKS
+      photo: "https://scontent.fbom1-1.fna.fbcdn.net/v/t31.0-8/11187300_489193074569113_4019166968600293925_o.jpg?oh=fea1157e6935804a94645cf009ae017b&oe=5A23B377"
+
+- MUO-2015:
+    - team: TIKS
+      photo: "https://scontent.fbom1-1.fna.fbcdn.net/v/t31.0-8/11200971_467444450077309_1107727136876053103_o.jpg?oh=e7ad5fad2d011784a804a0ae46173501&oe=5A14785D"

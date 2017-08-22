@@ -187,10 +187,10 @@
             <div class="timeline-img"></div>
             <div class="timeline-content">
                 <div class="date"> {{$tournament}} </div>
-                {{ range $team, $event := $team_events }}
+                {{ range $team_events }}
                 <h2>
                     {{ if gt (len $team_events) 1  }}
-                    {{ $team }}
+                    {{ .team }}
                     {{ end }}
                 </h2>
                 {{ if .photo }}
@@ -198,8 +198,13 @@
                     <img src="{{.photo}}" />
                 </a>
                 {{ end }}
+                {{ if .captain }}
                 <p>Captain: {{ .captain }}</p>
+                {{ end }}
+                {{ if .position }}
                 <p>Position: {{ .position }}</p>
+                {{ end }}
+                <p>{{ .text }} </p>
                 {{ end }}
             </div>
         </div>
