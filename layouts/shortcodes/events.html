@@ -18,7 +18,7 @@
  }
  .timeline-item:nth-child(even) .timeline-content {
      float: right;
-     padding: 40px 30px 10px 30px;
+     padding: 40px 30px 40px 30px;
  }
  .timeline-item:nth-child(even) .timeline-content .date {
      right: auto;
@@ -44,7 +44,7 @@
  .timeline-content {
      position: relative;
      width: 45%;
-     padding: 40px 30px 10px 30px;
+     padding: 40px 30px 40px 30px;
      border-radius: 4px;
      background: #f5f5f5;
      box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
@@ -223,7 +223,9 @@
                     </tr>
                     {{ end }}
                 </table>
-                <p>{{ .text }}</p>
+                {{ if .text }}
+                <p>{{ .text | safeHTML }}</p>
+                {{ end }}
                 {{ end }}
             </div>
         </div>
