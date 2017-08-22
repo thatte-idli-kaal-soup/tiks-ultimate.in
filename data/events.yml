@@ -4,6 +4,7 @@ tournaments:
       seed: 9
       position: 12
       spirit: 21
+      captain: aishu
     - team: Dabaki
       seed: 21
       position: 20
@@ -19,6 +20,7 @@ tournaments:
       seed: 8
       position: 7
       spirit: 25
+      captain: aishu
     - team: Dabaki
       seed: 18
       position: 19
@@ -30,6 +32,7 @@ tournaments:
       seed: 11
       position: 8
       spirit: 15
+      captain: aishu
 
 - BUO-2016:
     - team: TIKS
@@ -52,3 +55,9 @@ tournaments:
 - MUO-2015:
     - team: TIKS
       photo: "https://scontent.fbom1-1.fna.fbcdn.net/v/t31.0-8/11200971_467444450077309_1107727136876053103_o.jpg?oh=e7ad5fad2d011784a804a0ae46173501&oe=5A14785D"
+
+
+captains:
+  aishu:
+    name: Aishwarya Ashok
+    url: http://indiaultimate.org/u/aishwarya-ashok
