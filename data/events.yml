@@ -14,6 +14,7 @@ tournaments:
       seed: 31
       position: 26
       spirit: 10
+      captain: kk
 
 - MUO-2017:
     - team: TIKS
@@ -61,3 +62,6 @@ captains:
   aishu:
     name: Aishwarya Ashok
     url: http://indiaultimate.org/u/aishwarya-ashok
+  kk:
+    name: Kiran Kumar
+    url: http://indiaultimate.org/u/kiran-kumar
