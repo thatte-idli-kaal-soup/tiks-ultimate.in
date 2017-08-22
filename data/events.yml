@@ -1,6 +1,6 @@
 tournaments:
 - BUO-2017:
-    - text: "This tournament was organized by TIKS. It went off pretty smoothly, but was a lot of work!"
+    - text: "This tournament was <a href=\"/buo-2017/\" target=\"_blank\">organized by TIKS</a>. It went off pretty smoothly, but was a lot of work!"
       photo: "#"
     - team: TIKS
       seed: 9
