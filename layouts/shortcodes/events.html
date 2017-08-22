@@ -190,11 +190,9 @@
                 <div class="date"> {{$tournament}} </div>
                 {{ range $team_events }}
                 <h2>{{ if gt (len $team_events) 1  }}{{ .team }}{{ end }}</h2>
-                {{ if .photo }}
                 <a href="{{.photo}}" target="_blank">
-                    <img src="{{.photo}}" />
+                    <img src="{{ if .photo }}{{ .photo }}{{ else }}http://lorempixel.com/400/300/sports/{{ end }}" />
                 </a>
-                {{ end }}
                 <table>
                     {{ if .seed }}
                     <tr>
