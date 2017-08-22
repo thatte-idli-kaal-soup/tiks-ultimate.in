@@ -80,14 +80,11 @@
  }
 
  .timeline a {
-     color: #FFFFFF;
-     text-transform: uppercase;
-     font-size: 14px;
+      font-size: 14px;
      display: inline-block;
  }
  .timeline a:hover, a:active, a:focus {
-     color: #FFFFFF;
-     text-decoration: none;
+      text-decoration: none;
  }
 
  .timeline-card {
@@ -203,12 +200,6 @@
                 </a>
                 {{ end }}
                 <table>
-                    {{ if .captain }}
-                    <tr>
-                        <td class="table-label">Captain</td>
-                        <td>{{ .captain }}</td>
-                    </tr>
-                    {{ end }}
                     {{ if .seed }}
                     <tr>
                         <td class="table-label">Seed</td>
@@ -225,6 +216,16 @@
                     <tr>
                         <td class="table-label">Spirit Rank</td>
                         <td>{{ .spirit }}</td>
+                    </tr>
+                    {{ end }}
+                    {{ if .captain }}
+                    <tr>
+                        <td class="table-label">Captain</td>
+                        <td>
+                            {{ with index $.Site.Data.events.captains .captain }}
+                            <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+                            {{ end }}
+                        </td>
                     </tr>
                     {{ end }}
                 </table>
