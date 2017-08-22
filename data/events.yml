@@ -1,22 +1,35 @@
 tournaments:
 - BUO-2017:
     - team: TIKS
+      seed: 9
       position: 12
+      spirit: 21
     - team: Dabaki
-      position: 12
+      seed: 21
+      position: 20
+      spirit: 11
       photo: "https://instagram.fbom1-1.fna.fbcdn.net/t51.2885-15/e35/20347770_847093995449536_5271581810445254656_n.jpg"
+    - team: Discturbia
+      seed: 31
+      position: 26
+      spirit: 10
 
 - MUO-2017:
     - team: TIKS
-      position: 11
+      seed: 8
+      position: 7
+      spirit: 25
     - team: Dabaki
-      position: 12
+      seed: 18
+      position: 19
+      spirit: 14
       photo: "https://instagram.fbom1-1.fna.fbcdn.net/t51.2885-15/e35/17493708_494124477377848_4094232791011557376_n.jpg"
 
 - AUO-2017:
     - team: TIKS
+      seed: 11
       position: 8
-      photo: "https://scontent.fblr2-1.fna.fbcdn.net/v/t31.0-8/14124378_658919457596473_3412496361020321294_o.jpg?oh=54f005261ffd2a6e5f29a9f17ff9cf50&oe=5A25BF19"
+      spirit: 15
 
 - BUO-2016:
     - team: TIKS
