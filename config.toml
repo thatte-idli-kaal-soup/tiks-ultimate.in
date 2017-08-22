@@ -21,11 +21,11 @@ title = "Thatte Idli Kaal Soup"
 
 
 [[menu.main]]
-    name = "Masala Idli"
-    url = "masala-idli/"
+    name = "About Us"
+    url = "about/"
     weight = 1
 
 [[menu.main]]
-    name = "BUO 2017"
-    url = "buo-2017/"
+    name = "Masala Idli"
+    url = "masala-idli/"
     weight = 2
