@@ -44,7 +44,7 @@
  .timeline-content {
      position: relative;
      width: 45%;
-     padding: 10px 30px;
+     padding: 40px 30px 10px 30px;
      border-radius: 4px;
      background: #f5f5f5;
      box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
@@ -72,13 +72,17 @@
      margin-left: -15px;
  }
 
+ .timeline table {
+     width: 100%;
+ }
+ .timeline .table-label {
+     font-weight: 900;
+ }
+
  .timeline a {
      color: #FFFFFF;
-     padding: 8px 20px;
      text-transform: uppercase;
      font-size: 14px;
-     margin-bottom: 20px;
-     margin-top: 10px;
      display: inline-block;
  }
  .timeline a:hover, a:active, a:focus {
@@ -198,13 +202,33 @@
                     <img src="{{.photo}}" />
                 </a>
                 {{ end }}
-                {{ if .captain }}
-                <p>Captain: {{ .captain }}</p>
-                {{ end }}
-                {{ if .position }}
-                <p>Position: {{ .position }}</p>
-                {{ end }}
-                <p>{{ .text }} </p>
+                <table>
+                    {{ if .captain }}
+                    <tr>
+                        <td class="table-label">Captain</td>
+                        <td>{{ .captain }}</td>
+                    </tr>
+                    {{ end }}
+                    {{ if .seed }}
+                    <tr>
+                        <td class="table-label">Seed</td>
+                        <td>{{ .seed }}</td>
+                    </tr>
+                    {{ end }}
+                    {{ if .position }}
+                    <tr>
+                        <td class="table-label">Position</td>
+                        <td>{{ .position }}</td>
+                    </tr>
+                    {{ end }}
+                    {{ if .spirit }}
+                    <tr>
+                        <td class="table-label">Spirit Rank</td>
+                        <td>{{ .spirit }}</td>
+                    </tr>
+                    {{ end }}
+                </table>
+                <p>{{ .text }}</p>
                 {{ end }}
             </div>
         </div>
