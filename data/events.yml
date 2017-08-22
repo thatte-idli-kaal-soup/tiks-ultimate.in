@@ -55,11 +55,18 @@ tournaments:
 - BUO-2015:
     - team: TIKS
       photo: "https://scontent.fbom1-1.fna.fbcdn.net/v/t31.0-8/11187300_489193074569113_4019166968600293925_o.jpg?oh=fea1157e6935804a94645cf009ae017b&oe=5A23B377"
+      seed: 16
+      position: 17
 
 - MUO-2015:
     - team: TIKS
       photo: "https://scontent.fbom1-1.fna.fbcdn.net/v/t31.0-8/11200971_467444450077309_1107727136876053103_o.jpg?oh=e7ad5fad2d011784a804a0ae46173501&oe=5A14785D"
 
+- BUO-2014:
+    - team: TIKS
+      photo: "https://scontent.fblr2-1.fna.fbcdn.net/v/t1.0-9/11088226_448338698654551_1609753145795521436_n.jpg?oh=db05d69ac2ec6468fdfd8ccca629cc4e&oe=5A613225"
+      seed: 23
+      position: 22
 
 captains:
   aishu:
