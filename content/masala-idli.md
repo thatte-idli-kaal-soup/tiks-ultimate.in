@@ -11,12 +11,12 @@ Date       | 6:05 -- 6:50 am | 6:55 - 7:40 am
 Aug 5      | 1 vs. 2         | 3 vs. 4
 ~~Aug 12~~ | IISc HAT        | IISc HAT
 Aug 19     | 2 vs. 4         | 1 vs. 3
-Aug 26     | 1 vs. 4         | 2 vs. 3
-Sep 2      | 1 vs. 3         | 2 vs. 4
-Sep 9      | 3 vs. 4         | 1 vs. 2
-Sep 16     | 2 vs. 3         | 1 vs. 4
-Sep 23     | Semi-final 1    | Semi-final 2
-Sep 30     | Final           | Feedback/Closing
+~~Aug 26~~ | U24 camp        | Ganesh Chaturthi
+Sep 2      | 1 vs. 4         | 2 vs. 3
+Sep 9      | 1 vs. 3         | 2 vs. 4
+Sep 16     | 3 vs. 4         | 1 vs. 2
+Sep 23     | 2 vs. 3         | 1 vs. 4
+Sep 30     | 3rd place match | 1st place match
 
 **1**: Hubba Hubba,  **2**: GST, **3**: Discpickable Us 3, **4**: Force Four
 
