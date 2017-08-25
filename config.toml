@@ -22,7 +22,7 @@ googleAnalytics = "UA-105305610-1"
 
 
 [[menu.main]]
-    name = "About Us"
+    name = "About"
     url = "about/"
     weight = 1
 
