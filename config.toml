@@ -3,6 +3,7 @@ baseurl = "http://thatteidlikaalsoup.team"
 languageCode = "en-us"
 theme = "beautifulhugo"
 title = "Thatte Idli Kaal Soup"
+googleAnalytics = "UA-105305610-1"
 
 [params]
   subtitle = "A food-loving Ultimate Frisbee club from Bangalore"
