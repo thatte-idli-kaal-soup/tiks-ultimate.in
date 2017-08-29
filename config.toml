@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "http://thatteidlikaalsoup.team"
+baseurl = "https://thatteidlikaalsoup.team"
 languageCode = "en-us"
 theme = "beautifulhugo"
 title = "Thatte Idli Kaal Soup"
