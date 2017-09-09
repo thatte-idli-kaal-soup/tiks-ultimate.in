@@ -13,11 +13,9 @@ Aug 5      | 1 vs. 2         | 3 vs. 4
 Aug 19     | 2 vs. 4         | 1 vs. 3
 ~~Aug 26~~ | U24 camp        | Ganesh Chaturthi
 ~~Sep 2~~  | Washed out      | Washed out
-Sep 9      | 1 vs. 4         | 2 vs. 3
-Sep 16     | 1 vs. 3         | 2 vs. 4
-Sep 23     | 3 vs. 4         | 1 vs. 2
-Sep 30     | 2 vs. 3         | 1 vs. 4
-Oct 7      | 3rd place match | 1st place match
+~~Sep 9~~  | Washed out      | Washed out
+Sep 16     | 1 vs. 4         | 2 vs. 3
+Sep 23     | 3rd place match | 1st place match
 
 **1**: Hubba Hubba,  **2**: GST, **3**: Discpickable Us 3, **4**: Force Four
 
