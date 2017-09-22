@@ -15,7 +15,9 @@ Aug 19     | 2 vs. 4         | 1 vs. 3
 ~~Sep 2~~  | Washed out      | Washed out
 ~~Sep 9~~  | Washed out      | Washed out
 Sep 16     | 1 vs. 4         | 2 vs. 3
-Sep 23     | 3rd place match | 1st place match
+Sep 23     | 1 vs. 3         | 2 vs. 4
+Sep 30     | 3 vs. 4         | 1 vs. 2
+Oct 7      | 2 vs. 3         | 1 vs. 4
 
 **1**: Hubba Hubba,  **2**: GST, **3**: Discpickable Us 3, **4**: Force Four
 
@@ -31,6 +33,8 @@ A                 |       |       | B
 Discpickable Us 3 | 6     | **9** | **Force Four**
 GST               | 4     | **8** | **Force Four**
 Hubba Hubba       | 5     | **9** | **Disccpickable Us 3**
+Hubba Hubba       | 4     | **7** | **Force Four**
+GST               | 8     | 8     | Disccpickable Us 3
 
 
 ## Moments and memories {#moments-and-memories}
