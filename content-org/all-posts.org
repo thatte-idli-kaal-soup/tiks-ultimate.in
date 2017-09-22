@@ -52,14 +52,14 @@ Captains will be notified of any changes.
 **** COMMENT Full points table
 
 #+NAME: full-table
-| A                 |     | MVP    | MSP    | Best-play             |     | B                    | MVP           | MSP  | Best-play        |
-|-------------------+-----+--------+--------+-----------------------+-----+----------------------+---------------+------+------------------|
-| *Hubba Hubba*     | *9* | Dose   | Nico   | -                     | 1   | GST                  | Pavan & Nikki | Yogi | Vinuth (to Yogi) |
-| Discpickable Us 3 |   6 | Sasi   | VK     | Venkata               | *9* | *Force Four*         | Krish         | KK   | Amith (to Punch) |
-| GST               |   4 | Nikki  | Vinuth | Yogi (end-zone catch) | *8* | *Force Four*         | Rajan & Saqqu | Team | Danish           |
-| Hubba Hubba       |   5 | Birdie | Team   | Kasi                  | *9* | *Disccpickable Us 3* | VK & Sheetal  | -    | Anirudh          |
-| Hubba Hubba       |   4 |        |        |                       | *7* | *Force Four*         |               |      |                  |
-| GST               |   8 |        |        |                       | 8   | Disccpickable Us 3   |               |      |                  |
+| A                 |     | MVP    | MSP    | Best-play             |     | B                    | MVP           | MSP   | Best-play             |
+|-------------------+-----+--------+--------+-----------------------+-----+----------------------+---------------+-------+-----------------------|
+| *Hubba Hubba*     | *9* | Dose   | Nico   | -                     | 1   | GST                  | Pavan & Nikki | Yogi  | Vinuth (to Yogi)      |
+| Discpickable Us 3 |   6 | Sasi   | VK     | Venkata               | *9* | *Force Four*         | Krish         | KK    | Amith (to Punch)      |
+| GST               |   4 | Nikki  | Vinuth | Yogi (end-zone catch) | *8* | *Force Four*         | Rajan & Saqqu | Team  | Danish                |
+| Hubba Hubba       |   5 | Birdie | Team   | Kasi                  | *9* | *Disccpickable Us 3* | VK & Sheetal  | -     | Anirudh               |
+| Hubba Hubba       |   4 | Birdie | Nico   | Saru (catch)          | *7* | *Force Four*         | Kedar         | Punch | Kedar (end-zone grab) |
+| GST               |   8 |        |        |                       | 8   | Disccpickable Us 3   |               |       |                       |
 
 *** Moments and memories
 
