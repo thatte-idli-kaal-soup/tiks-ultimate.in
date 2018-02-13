@@ -25,8 +25,3 @@ googleAnalytics = "UA-105305610-1"
     name = "About"
     url = "about/"
     weight = 1
-
-[[menu.main]]
-    name = "Masala Idli"
-    url = "masala-idli/"
-    weight = 2
