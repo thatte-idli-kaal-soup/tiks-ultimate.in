@@ -6,8 +6,29 @@
 * Pages
 :PROPERTIES:
 :EXPORT_HUGO_SECTION:
+:EXPORT_HUGO_TYPE: page
+:END:
+** DONE About
+:PROPERTIES:
+:EXPORT_FILE_NAME: about
+:EXPORT_DATE: 2017-08-21T19:39:01+05:30
 :END:
 
+Thatte Idli Kaal Soup is a food-loving Ultimate Frisbee club from Bangalore. It
+currently has three teams as a part of the club:
+
+1. TIKS
+2. Dabaki
+3. Discturbia
+
+Below is a timeline of some of the major events for the club
+
+{{% events %}}
+* Posts
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: posts
+:EXPORT_HUGO_TYPE: post
+:END:
 ** DONE TIKS League — Masala Idli
 :PROPERTIES:
 :EXPORT_FILE_NAME: masala-idli
@@ -27,8 +48,6 @@
 | Sep 16   | 1 vs. 4         | 2 vs. 3          |
 | Sep 23   | 1 vs. 3         | 2 vs. 4          |
 | +Sep 30+ | Chennai Heat    | Chennai Heat     |
-| Oct 7    | 3 vs. 4         | 1 vs. 2          |
-| Oct 14   | 2 vs. 3         | 1 vs. 4          |
 
 *1*: Hubba Hubba,  *2*: GST, *3*: Discpickable Us 3, *4*: Force Four
 
@@ -134,19 +153,9 @@ Captains will be notified of any changes.
 <p data-height="1000" data-theme-id="light" data-slug-hash="zdKxaN" data-default-tab="result" data-user="punchagan" data-embed-version="2" data-pen-title="TIKS Leage — Masala Idli Edition" class="codepen">See the Pen <a href="https://codepen.io/punchagan/pen/zdKxaN/">TIKS Leage — Masala Idli Edition</a> by Puneeth Chaganti (<a href="https://codepen.io/punchagan">@punchagan</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 #+END_EXPORT
-** DONE About
-:PROPERTIES:
-:EXPORT_FILE_NAME: about
-:EXPORT_DATE: 2017-08-21T19:39:01+05:30
-:END:
 
-Thatte Idli Kaal Soup is a food-loving Ultimate Frisbee club from Bangalore. It
-currently has three teams as a part of the club:
-
-1. TIKS
-2. Dabaki
-3. Discturbia
-
-Below is a timeline of some of the major events for the club
-
-{{% events %}}
+* COMMENT Local Variables
+# Local Variables:
+# org-hugo-allow-export-after-save: t
+# org-export-with-author: nil
+# End:

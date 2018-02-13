@@ -1,6 +1,7 @@
 +++
 title = "About"
-date = "2017-08-21T00:00:00+05:30"
+date = 2017-08-21T19:39:01+05:30
+type = "page"
 draft = false
 +++
 
