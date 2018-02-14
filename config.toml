@@ -25,3 +25,8 @@ googleAnalytics = "UA-105305610-1"
     name = "About"
     url = "about/"
     weight = 1
+
+[[menu.main]]
+    name = "Favorites"
+    url = "favorites/"
+    weight = 2
