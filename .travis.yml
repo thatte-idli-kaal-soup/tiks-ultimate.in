@@ -20,4 +20,4 @@ install:
 
 # Build the website
 script:
-  - ./docs/deploy.sh
+  - ./deploy.sh
