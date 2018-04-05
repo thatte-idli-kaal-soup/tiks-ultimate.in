@@ -8,7 +8,7 @@ then
     GIT_URL=$(git remote get-url origin)
 else
     GIT_URL="https://github.com/thatte-idli-kaal-soup/thatteidlikaalsoup.team.git"
-    GIT_URL=$(echo $GIT_URL|sed -e s/github.com/thatte-idli-kaal-soup:"${GITHUB_TOKEN}"@github.com/g)
+    GIT_URL=$(echo $GIT_URL|sed -e s/github.com/punchagan:"${GITHUB_TOKEN}"@github.com/g)
 fi
 
 # Build the site
