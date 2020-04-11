@@ -28,9 +28,9 @@ module.exports = {
             url: 'https://facebook.com/Thatte-Idli-Kaal-Soup-448323595322728'
         },
         {
-            icon: 'icon-social-email',
+            icon: 'icon-social-google',
             name: 'Email',
-            url: 'tiks.india.ultimate@gmail.com'
+            url: 'mailto:tiks.india.ultimate@gmail.com'
         },
         {
             icon: 'icon-social-github',
