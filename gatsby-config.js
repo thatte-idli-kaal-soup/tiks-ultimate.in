@@ -30,7 +30,7 @@ module.exports = {
                 typePrefix: 'blog__',
 
                 // The url, this should be the endpoint you are attempting to pull data from
-                url: `http://localhost:5000/api/posts`,
+                url: process.env.POSTS_API_URL,
 
                 method: 'get',
 
