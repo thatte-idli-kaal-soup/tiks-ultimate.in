@@ -1,4 +1,5 @@
 import React from 'react';
+import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
@@ -13,7 +14,21 @@ import p2 from '../assets/images/portfolio-2.jpg';
 import p3 from '../assets/images/portfolio-3.jpg';
 import p4 from '../assets/images/portfolio-4.jpg';
 
-const IndexPage = () => (
+export const query = graphql`
+  query BlogPostsQuery {
+    allBlogPosts {
+      edges {
+        node {
+          id
+          title
+          authors
+        }
+      }
+    }
+  }
+`;
+
+const IndexPage = ({ data }) => (
   <Layout>
     <Header />
 
@@ -48,6 +63,28 @@ const IndexPage = () => (
                 What We Offer
               </a>
             </Scroll>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section className="content-section bg-secondary text-white" id="posts">
+      <div className="container text-center">
+        <div className="row">
+          <div className="col-lg-10 mx-auto">
+            <h2>Blog Posts</h2>
+            <p className="lead mb-5">Blog posts, yo!</p>
+            <div>
+              {data.allBlogPosts.edges
+                .filter(({ node }) => node.id !== 'dummy')
+                .map(({ node }) => (
+                  <div key={node.id}>
+                    <h3>
+                      {node.title} <span>— {node.id}</span>
+                    </h3>
+                  </div>
+                ))}
+            </div>
           </div>
         </div>
       </div>
