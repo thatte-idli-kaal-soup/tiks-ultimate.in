@@ -6,7 +6,7 @@ title = "Thatte Idli Kaal Soup"
 googleAnalytics = "UA-105305610-1"
 
 [params]
-  subtitle = "A food-loving Ultimate Frisbee club from Bangalore"
+  subtitle = "An Ultimate Frisbee club from South Bangalore"
   logo = "images/tiks-logo.png"
   favicon = "images/tiks-logo.ico"
   dateFormat = "January 2, 2006"
