@@ -1,4 +1,5 @@
 import React from 'react';
+import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
@@ -13,7 +14,21 @@ import p2 from '../assets/images/portfolio-2.jpg';
 import p3 from '../assets/images/portfolio-3.jpg';
 import p4 from '../assets/images/portfolio-4.jpg';
 
-const IndexPage = () => (
+export const query = graphql`
+  query BlogPostsQuery {
+    allBlogPosts {
+      edges {
+        node {
+          id
+          title
+          authors
+        }
+      }
+    }
+  }
+`;
+
+const IndexPage = ({ data }) => (
   <Layout>
     <Header />
 
@@ -29,7 +44,7 @@ const IndexPage = () => (
           </a>
         </Scroll>
       </div>
-      <div className="overlay"></div>
+      <div className="overlay" />
     </header>
 
     <section className="content-section bg-light" id="about">
@@ -53,6 +68,28 @@ const IndexPage = () => (
       </div>
     </section>
 
+    <section className="content-section bg-secondary text-white" id="posts">
+      <div className="container text-center">
+        <div className="row">
+          <div className="col-lg-10 mx-auto">
+            <h2>Blog Posts</h2>
+            <p className="lead mb-5">Blog posts, yo!</p>
+            <div>
+              {data.allBlogPosts.edges
+                .filter(({ node }) => node.id !== 'dummy')
+                .map(({ node }) => (
+                  <div key={node.id}>
+                    <h3>
+                      {node.title} <span>— {node.id}</span>
+                    </h3>
+                  </div>
+                ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section
       className="content-section bg-primary text-white text-center"
       id="timeline">
@@ -64,7 +101,7 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
             <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-screen-smartphone"></i>
+              <i className="icon-screen-smartphone" />
             </span>
             <h4>
               <strong>Responsive</strong>
@@ -73,7 +110,7 @@ const IndexPage = () => (
           </div>
           <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
             <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-pencil"></i>
+              <i className="icon-pencil" />
             </span>
             <h4>
               <strong>Redesigned</strong>
@@ -84,19 +121,19 @@ const IndexPage = () => (
           </div>
           <div className="col-lg-3 col-md-6 mb-5 mb-md-0">
             <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-like"></i>
+              <i className="icon-like" />
             </span>
             <h4>
               <strong>Favorited</strong>
             </h4>
             <p className="text-faded mb-0">
               Millions of users
-              <i className="fas fa-heart"></i>
+              <i className="fas fa-heart" />
             </p>
           </div>
           <div className="col-lg-3 col-md-6">
             <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-mustache"></i>
+              <i className="icon-mustache" />
             </span>
             <h4>
               <strong>Question</strong>
