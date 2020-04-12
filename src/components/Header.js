@@ -47,35 +47,35 @@ export default class Header extends Component {
                 type="id"
                 element="about"
               >
-                <a href="#about">About</a>
+                <a href="#about">Ultimate Frisbee</a>
               </Scroll>
             </li>
             <li className="sidebar-nav-item">
               <Scroll
                 onClick={_ => this.toggleMenu(!openMenu)}
                 type="id"
-                element="services"
+                element="timeline"
               >
-                <a href="#services">Services</a>
+                <a href="#timeline">Our Journey</a>
               </Scroll>
             </li>
             <li className="sidebar-nav-item">
               <Scroll
                 onClick={_ => this.toggleMenu(!openMenu)}
                 type="id"
-                element="portfolio"
+                element="gallery"
               >
-                <a href="#portfolio">Portfolio</a>
+                <a href="#gallery">Gallery</a>
               </Scroll>
             </li>
             <li className="sidebar-nav-item">
-              <Scroll
+            <a href="https://www.123formbuilder.com/form-5387850/">Contact</a>
+              {/* <Scroll
                 onClick={_ => this.toggleMenu(!openMenu)}
                 type="id"
-                element="contact"
-              >
-                <a href="#contact">Contact</a>
-              </Scroll>
+                element="contact">
+                <a href="https://www.123formbuilder.com/form-5387850/">Contact</a>
+              </Scroll> */}
             </li>
           </ul>
         </nav>

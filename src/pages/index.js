@@ -24,8 +24,8 @@ const IndexPage = () => (
           <em>{config.subHeading}</em>
         </h3>
         <Scroll type="id" element="about" offset={100}>
-          <a className="btn btn-primary btn-xl" href="#about">
-            About
+          <a className="btn btn-primary btn-xl" href="#timeline">
+            Our Journey
           </a>
         </Scroll>
       </div>
@@ -37,15 +37,15 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-lg-10 mx-auto">
             <h2>
-              Stylish Portfolio is the perfect theme for your next project!
+              Ultimate Frisbee
             </h2>
             <p className="lead mb-5">
-              This theme features a flexible, UX friendly sidebar menu and stock
-              photos from our friends
+            Ultimate Frisbee is a self-refereed, team sport in which players seek to score points by passing a Disc/Frisbee to a teammate over the opposing team’s goal line. It is a Non-Contact, Mixed Gender sport known for its Spirit of the Game.
             </p>
             <Scroll type="id" element="services" offset={100}>
               <a className="btn btn-dark btn-xl" href="#services">
-                What We Offer
+                {/* Create a component to manage ultimate related blogs */}
+                More about the game
               </a>
             </Scroll>
           </div>
@@ -55,12 +55,11 @@ const IndexPage = () => (
 
     <section
       className="content-section bg-primary text-white text-center"
-      id="services"
-    >
+      id="timeline">
       <div className="container">
         <div className="content-section-heading">
-          <h3 className="text-secondary mb-0">Services</h3>
-          <h2 className="mb-5">What We Offer</h2>
+          {/* <h3 className="text-secondary mb-0">Our Journey</h3> */}
+          <h2 className="mb-5">Our Journey</h2>
         </div>
         <div className="row">
           <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
@@ -108,7 +107,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="callout">
+    {/* <section className="callout">
       <div className="container text-center">
         <h2 className="mx-auto mb-5">
           Welcome to
@@ -122,13 +121,13 @@ const IndexPage = () => (
           Download Now!
         </a>
       </div>
-    </section>
+    </section> */}
 
-    <section className="content-section" id="portfolio">
+    <section className="content-section" id="gallery">
       <div className="container">
         <div className="content-section-heading text-center">
-          <h3 className="text-secondary mb-0">Portfolio</h3>
-          <h2 className="mb-5">Recent Projects</h2>
+          {/* <h3 className="text-secondary mb-0">Gallery</h3> */}
+          <h2 className="mb-5">Gallery</h2>
         </div>
         <div className="row no-gutters">
           <div className="col-lg-6">
@@ -190,7 +189,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="content-section bg-primary text-white">
+    {/* <section className="content-section bg-primary text-white">
       <div className="container text-center">
         <h2 className="mb-4">The buttons below are impossible to resist...</h2>
         <a href="/#" className="btn btn-xl btn-light mr-4">
@@ -200,22 +199,10 @@ const IndexPage = () => (
           Look at Me!
         </a>
       </div>
-    </section>
+    </section> */}
 
-    {/* <section id="contact" className="map">
-      <iframe
-        width="100%"
-        height="100%"
-        frameborder="0"
-        scrolling="no"
-        marginheight="0"
-        marginwidth="0"
-        src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"
-      ></iframe>
-      <br />
-      <small>
-        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-      </small>
+    {/* <section id="contact">
+      <a href="https://www.123formbuilder.com/form-5387850/">Contact</a>
     </section> */}
 
     <ScrollToTop />

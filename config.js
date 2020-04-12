@@ -10,7 +10,7 @@ module.exports = {
     manifestBackgroundColor: '#663399',
     manifestThemeColor: '#663399',
     manifestDisplay: 'standalone',
-    manifestIcon: 'src/assets/img/website-icon.png',
+    manifestIcon: 'src/assets/img/tiks.png',
     pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
     heading: 'Thatte Idli Kaal Soup',
     subHeading: description,
@@ -36,7 +36,13 @@ module.exports = {
             icon: 'icon-social-github',
             name: 'Github',
             url: 'https://github.com/thatte-idli-kaal-soup'
+        },
+        {
+            icon: 'fab fa-whatsapp',
+            name: 'Whatsapp',
+            url: 'https://chat.whatsapp.com/BtFckWSu2WPJ5I8XP4ihPJ'
         }
+
     ],
     email: 'tiks.india.ultimate@gmail.com',
     phone: '000-00000',

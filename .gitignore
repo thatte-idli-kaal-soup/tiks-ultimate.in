@@ -2,3 +2,4 @@
 /yarn.lock
 /.cache/
 /public/
+.DS_Store
