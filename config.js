@@ -28,6 +28,11 @@ module.exports = {
       url: 'https://facebook.com/Thatte-Idli-Kaal-Soup-448323595322728',
     },
     {
+      icon: 'fab fa-whatsapp',
+      name: 'Whatsapp',
+      url: 'https://chat.whatsapp.com/BtFckWSu2WPJ5I8XP4ihPJ',
+    },
+    {
       icon: 'icon-envelope',
       name: 'Email',
       url: 'mailto:tiks.india.ultimate@gmail.com',
@@ -36,11 +41,6 @@ module.exports = {
       icon: 'icon-social-github',
       name: 'Github',
       url: 'https://github.com/thatte-idli-kaal-soup',
-    },
-    {
-      icon: 'fab fa-whatsapp',
-      name: 'Whatsapp',
-      url: 'https://chat.whatsapp.com/BtFckWSu2WPJ5I8XP4ihPJ',
     },
   ],
   email: 'tiks.india.ultimate@gmail.com',
