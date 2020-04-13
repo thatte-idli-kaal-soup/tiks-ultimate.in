@@ -69,7 +69,7 @@ export default class Header extends Component {
               </Scroll>
             </li>
             <li className="sidebar-nav-item">
-            <a href="https://www.123formbuilder.com/form-5387850/">Contact</a>
+              <a href="https://www.123formbuilder.com/form-5387850/">Contact</a>
               {/* <Scroll
                 onClick={_ => this.toggleMenu(!openMenu)}
                 type="id"

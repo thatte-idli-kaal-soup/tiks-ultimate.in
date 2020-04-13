@@ -51,11 +51,12 @@ const IndexPage = ({ data }) => (
       <div className="container text-center">
         <div className="row">
           <div className="col-lg-10 mx-auto">
-            <h2>
-              Ultimate Frisbee
-            </h2>
+            <h2>Ultimate Frisbee</h2>
             <p className="lead mb-5">
-            Ultimate Frisbee is a self-refereed, team sport in which players seek to score points by passing a Disc/Frisbee to a teammate over the opposing team’s goal line. It is a Non-Contact, Mixed Gender sport known for its Spirit of the Game.
+              Ultimate Frisbee is a self-refereed, team sport in which players
+              seek to score points by passing a Disc/Frisbee to a teammate over
+              the opposing team’s goal line. It is a Non-Contact, Mixed Gender
+              sport known for its Spirit of the Game.
             </p>
             <Scroll type="id" element="services" offset={100}>
               <a className="btn btn-dark btn-xl" href="#services">
@@ -92,7 +93,8 @@ const IndexPage = ({ data }) => (
 
     <section
       className="content-section bg-primary text-white text-center"
-      id="timeline">
+      id="timeline"
+    >
       <div className="container">
         <div className="content-section-heading">
           {/* <h3 className="text-secondary mb-0">Our Journey</h3> */}
