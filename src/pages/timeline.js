@@ -52,7 +52,7 @@ export default class Timeline extends Component {
   render() {
     return (
       <div style={{ background: '#D3D3D3' }}>
-        <VerticalTimeline>{this.createTimeline()};</VerticalTimeline>
+        <VerticalTimeline>{this.createTimeline()}</VerticalTimeline>
       </div>
     );
   }
