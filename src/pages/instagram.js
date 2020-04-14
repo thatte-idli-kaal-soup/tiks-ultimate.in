@@ -1,5 +1,5 @@
 import React from 'react';
-import JSONData from '../../content/instagram.json';
+import JSONData from '../../content/thatteidlikaalsoup.json';
 
 const JSONbuildtime = () => (
   <div style={{ maxWidth: `960px`, margin: `1.45rem` }}>
