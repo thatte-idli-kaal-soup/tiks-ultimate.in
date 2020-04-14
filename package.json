@@ -23,6 +23,7 @@
     "react-helmet": "^5.2.1",
     "react-images": "^1.1.0",
     "react-scrollspy": "^3.4.2",
+    "react-vertical-timeline-component": "^2.5.0",
     "smoothscroll-polyfill": "^0.4.4"
   },
   "scripts": {
