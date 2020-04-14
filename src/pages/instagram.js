@@ -13,6 +13,11 @@ const JSONbuildtime = () => (
             >
               <img src={data.display_url} />
             </a>
+            <p>
+              {' '}
+              {data.edge_media_to_caption.edges.length > 0 &&
+                data.edge_media_to_caption.edges[0].node.text}
+            </p>
           </li>
         );
       })}
