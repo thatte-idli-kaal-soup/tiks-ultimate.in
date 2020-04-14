@@ -14,14 +14,14 @@ export default function Footer() {
                   href={url}
                   className="social-link rounded-circle text-white mr-3"
                 >
-                  <i className={icon}></i>
+                  <i className={icon} />
                 </a>
               </li>
             );
           })}
         </ul>
         <p className="text-muted small mb-0">
-          Copyright &copy; Gatsby Starter Stylish
+          Copyright &copy; {new Date().getFullYear()} Thatte Idli Kaal Soup
         </p>
       </div>
     </footer>
