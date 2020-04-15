@@ -7,10 +7,7 @@ const JSONbuildtime = () => (
       {JSONData.GraphImages.map((data, index) => {
         return (
           <li key={`content_item_${index}`}>
-            <a
-              href={`https://www.instagram.com/p/${data.shortcode}`}
-              target="_blank"
-            >
+            <a href={`https://www.instagram.com/p/${data.shortcode}`}>
               <img src={data.display_url} />
             </a>
             <p>
