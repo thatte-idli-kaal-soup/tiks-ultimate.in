@@ -6,6 +6,8 @@
 const path = require(`path`);
 const slugify = require('slugify');
 
+// Adapted from the Gatsby tutorial
+// https://www.gatsbyjs.org/tutorial/part-seven/
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
   if (node.internal.type === `blogPosts` && node.id != 'dummy') {
