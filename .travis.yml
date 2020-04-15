@@ -9,4 +9,4 @@ install:
 script:
   - instagram-scraper --media-metadata --media-types='none'  -d content thatteidlikaalsoup
 after_script:
-  - push_to_git.sh
+  - ./push_to_git.sh
