@@ -5,7 +5,6 @@ GIT_URL="https://punchagan:"${GITHUB_TOKEN}"@github.com/thatte-idli-kaal-soup/th
 
 # Push to GitHub
 git add content/
-git commit -m "Updating instagram feed from travisci" \
+git commit -m "Updating instagram feed from TravisCI [skip ci]" \
     --author "punchagan (travisci) <punchagan+travis@muse-amuse.in>"
 git push --quiet "${GIT_URL}" master:master
-
