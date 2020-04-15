@@ -5,16 +5,16 @@ const JSONbuildtime = () => (
   <div style={{ maxWidth: `960px`, margin: `1.45rem` }}>
     <ul>
       {JSONData.GraphImages.map((data, index) => {
+        const text =
+          (data.edge_media_to_caption.edges.length > 0 &&
+            data.edge_media_to_caption.edges[0].node.text) ||
+          '';
         return (
           <li key={`content_item_${index}`}>
             <a href={`https://www.instagram.com/p/${data.shortcode}`}>
-              <img src={data.display_url} />
+              <img src={data.display_url} alt={text} />
             </a>
-            <p>
-              {' '}
-              {data.edge_media_to_caption.edges.length > 0 &&
-                data.edge_media_to_caption.edges[0].node.text}
-            </p>
+            <p>{text}</p>
           </li>
         );
       })}
