@@ -22,6 +22,9 @@ export const query = graphql`
           id
           title
           authors
+          fields {
+            slug
+          }
         }
       }
     }
@@ -74,15 +77,14 @@ const IndexPage = ({ data }) => (
         <div className="row">
           <div className="col-lg-10 mx-auto">
             <h2>Blog Posts</h2>
-            <p className="lead mb-5">Blog posts, yo!</p>
             <div>
               {data.allBlogPosts.edges
                 .filter(({ node }) => node.id !== 'dummy')
                 .map(({ node }) => (
-                  <div key={node.id}>
-                    <h3>
-                      {node.title} <span>— {node.id}</span>
-                    </h3>
+                  <div key={node.fields.slug}>
+                    <h5>
+                      <a href={`/post/${node.fields.slug}`}>{node.title}</a>
+                    </h5>
                   </div>
                 ))}
             </div>
