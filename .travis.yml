@@ -1,0 +1,12 @@
+language: python
+cache: pip
+python:
+  - "3.7"
+env:
+  - IMAGEIO_FFMPEG_EXE=foo
+install:
+  - pip install -r requirements.txt
+script:
+  - instagram-scraper --media-metadata --media-types='none'  -d content thatteidlikaalsoup
+after_script:
+  - push_to_git.sh
