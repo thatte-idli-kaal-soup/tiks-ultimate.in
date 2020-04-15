@@ -12,7 +12,7 @@ const JSONbuildtime = () => (
         return (
           <li key={`content_item_${index}`}>
             <a href={`https://www.instagram.com/p/${data.shortcode}`}>
-              <img src={data.display_url} alt={text} />
+              <img src={data.thumbnail_resources[3].src} alt={text} />
             </a>
             <p>{text}</p>
           </li>
