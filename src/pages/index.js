@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
+import InstagramGrid from '../components/InstagramGrid.js';
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 
@@ -8,6 +9,8 @@ import config from '../../config';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import ScrollToTop from '../components/ScrollToTop';
+
+import JSONData from '../../content/thatteidlikaalsoup.json';
 
 import p1 from '../assets/images/portfolio-1.jpg';
 import p2 from '../assets/images/portfolio-2.jpg';
@@ -228,6 +231,7 @@ const IndexPage = ({ data }) => (
           </div>
         </div>
       </div>
+      <InstagramGrid imageData={JSONData} />
     </section>
 
     {/* <section className="content-section bg-primary text-white">
