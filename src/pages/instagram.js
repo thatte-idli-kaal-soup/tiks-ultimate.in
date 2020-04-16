@@ -1,6 +1,8 @@
 import React from 'react';
 import JSONData from '../../content/thatteidlikaalsoup.json';
 
+import '../assets/sass/bootstrap/bootstrap-grid.min.css';
+
 const constructImageGrid = images => {
   const imageGrid = [];
   let row,
