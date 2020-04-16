@@ -27,7 +27,7 @@ const images = importAll(
 
 export default class Timeline extends Component {
   createTimeline() {
-    return eventList.Events.map((data, index) => {
+    return eventList.map((data, index) => {
       return (
         <VerticalTimelineElement
           className="vertical-timeline-element--work"

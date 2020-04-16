@@ -1,35 +1,31 @@
-{
-    "Events":[
-        {
-            "date":"2011 - present",
-            "title":"NCS NAtionals",
-            "subtitle":"Bangalore",
-            "description":"Final seed - 8th",
-            "image":"nationals"
-        },
-        {
-            "date":"2018 - 2019",
-            "title":"NCS 2 Single Gender Regionals",
-            "subtitle":"Bangalore",
-            "description":"Final Seed : Opens - 9th , Womens - 3rd",
-            "image":"kodai"
-        },
-        {
-            "date":"2018 - 2019",
-            "title":"NCS NAtionals",
-            "subtitle":"Bangalore",
-            "description":"Final seed - 8th",
-            "image":"mdp"
-        },
-        {
-            "date":"2018 - 2019",
-            "title":"NCS NAtionals",
-            "subtitle":"Bangalore",
-            "description":"Final seed - 8th",
-            "image":"saturday"
-        }
+[
+    {
+        "date":"2011 - present",
+        "title":"NCS NAtionals",
+        "subtitle":"Bangalore",
+        "description":"Final seed - 8th",
+        "image":"nationals"
+    },
+    {
+        "date":"2018 - 2019",
+        "title":"NCS 2 Single Gender Regionals",
+        "subtitle":"Bangalore",
+        "description":"Final Seed : Opens - 9th , Womens - 3rd",
+        "image":"kodai"
+    },
+    {
+        "date":"2018 - 2019",
+        "title":"NCS NAtionals",
+        "subtitle":"Bangalore",
+        "description":"Final seed - 8th",
+        "image":"mdp"
+    },
+    {
+        "date":"2018 - 2019",
+        "title":"NCS NAtionals",
+        "subtitle":"Bangalore",
+        "description":"Final seed - 8th",
+        "image":"saturday"
+    }
 
-
-
-    ]
-}
+]
