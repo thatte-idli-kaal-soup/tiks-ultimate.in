@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import JSONData from '../../content/thatteidlikaalsoup.json';
 
 import '../assets/sass/bootstrap/bootstrap-grid.min.css';
+import '../assets/sass/instagram-grid.css';
 
 const constructImageGrid = images => {
   const imageGrid = [];
@@ -42,12 +43,11 @@ class InstagramGrid extends Component {
                     key={`content_item_${data.shortcode}`}
                   >
                     <a href={`https://www.instagram.com/p/${data.shortcode}`}>
-                      <div>
-                        <img
-                          className={`img-fluid rounded`}
-                          src={thumbnail}
-                          alt={text}
-                        />
+                      <div className="hovereffect">
+                        <img className="img-fluid" src={thumbnail} alt={text} />
+                        <div className="overlay">
+                          <span className="info">{text}</span>
+                        </div>
                       </div>
                     </a>
                   </div>
