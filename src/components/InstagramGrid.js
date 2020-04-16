@@ -62,7 +62,7 @@ class InstagramGrid extends Component {
 }
 
 InstagramGrid.propTypes = {
-  imageData: PropTypes.node.isRequired,
+  imageData: PropTypes.object.isRequired,
 };
 
 export default InstagramGrid;
