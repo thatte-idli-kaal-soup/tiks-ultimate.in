@@ -12,11 +12,6 @@ import ScrollToTop from '../components/ScrollToTop';
 
 import JSONData from '../../content/thatteidlikaalsoup.json';
 
-import p1 from '../assets/images/portfolio-1.jpg';
-import p2 from '../assets/images/portfolio-2.jpg';
-import p3 from '../assets/images/portfolio-3.jpg';
-import p4 from '../assets/images/portfolio-4.jpg';
-
 export const query = graphql`
   query BlogPostsQuery {
     allBlogPosts {
