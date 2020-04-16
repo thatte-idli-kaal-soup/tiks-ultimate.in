@@ -56,3 +56,5 @@ export default class Timeline extends Component {
     );
   }
 }
+
+export { images, eventList };

@@ -11,6 +11,7 @@ import Header from '../components/Header';
 import ScrollToTop from '../components/ScrollToTop';
 
 import JSONData from '../../content/thatteidlikaalsoup.json';
+import { eventList, images } from './timeline';
 
 export const query = graphql`
   query BlogPostsQuery {
@@ -28,6 +29,9 @@ export const query = graphql`
     }
   }
 `;
+
+const nowEvent = eventList[eventList.length - 1];
+const thenEvent = eventList[0];
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -81,45 +85,29 @@ const IndexPage = ({ data }) => (
         </div>
         <div className="row">
           <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-screen-smartphone" />
-            </span>
+            <img
+              src={images[thenEvent.image]}
+              style={{ 'max-height': '200px' }}
+            />
             <h4>
-              <strong>Responsive</strong>
+              <strong>Then</strong>
             </h4>
-            <p className="text-faded mb-0">Looks great on any screen size!</p>
+            <p className="text-faded mb-0">{thenEvent.date}</p>
+          </div>
+          <div className="col-lg-6 col-md-9 mb-5 ">
+            <a className="btn btn-dark btn-xl" href="/timeline">
+              See the Timeline
+            </a>
           </div>
           <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-pencil" />
-            </span>
+            <img
+              src={images[nowEvent.image]}
+              style={{ 'max-height': '200px' }}
+            />
             <h4>
-              <strong>Redesigned</strong>
+              <strong>Now</strong>
             </h4>
-            <p className="text-faded mb-0">
-              Freshly redesigned for Bootstrap 4.
-            </p>
-          </div>
-          <div className="col-lg-3 col-md-6 mb-5 mb-md-0">
-            <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-like" />
-            </span>
-            <h4>
-              <strong>Favorited</strong>
-            </h4>
-            <p className="text-faded mb-0">
-              Millions of users
-              <i className="fas fa-heart" />
-            </p>
-          </div>
-          <div className="col-lg-3 col-md-6">
-            <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-mustache" />
-            </span>
-            <h4>
-              <strong>Question</strong>
-            </h4>
-            <p className="text-faded mb-0">I mustache you a question...</p>
+            <p className="text-faded mb-0">{nowEvent.date}</p>
           </div>
         </div>
       </div>
