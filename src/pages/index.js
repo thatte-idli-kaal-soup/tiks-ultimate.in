@@ -151,22 +151,6 @@ const IndexPage = ({ data }) => (
       </div>
     </section>
 
-    {/* <section className="callout">
-      <div className="container text-center">
-        <h2 className="mx-auto mb-5">
-          Welcome to
-          <em>your</em>
-          next website!
-        </h2>
-        <a
-          className="btn btn-primary btn-xl"
-          href="https://github.com/anubhavsrivastava/gatsby-starter-stylish"
-        >
-          Download Now!
-        </a>
-      </div>
-    </section> */}
-
     <section className="content-section" id="gallery">
       <div className="container">
         <div className="content-section-heading text-center">
@@ -233,22 +217,6 @@ const IndexPage = ({ data }) => (
       </div>
       <InstagramGrid imageData={JSONData} />
     </section>
-
-    {/* <section className="content-section bg-primary text-white">
-      <div className="container text-center">
-        <h2 className="mb-4">The buttons below are impossible to resist...</h2>
-        <a href="/#" className="btn btn-xl btn-light mr-4">
-          Click Me!
-        </a>
-        <a href="/#" className="btn btn-xl btn-dark">
-          Look at Me!
-        </a>
-      </div>
-    </section> */}
-
-    {/* <section id="contact">
-      <a href="https://www.123formbuilder.com/form-5387850/">Contact</a>
-    </section> */}
 
     <ScrollToTop />
     <Footer />
