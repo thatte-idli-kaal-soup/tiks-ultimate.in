@@ -22,6 +22,15 @@ const constructImageGrid = images => {
   return imageGrid;
 };
 
+const truncateText = (text, maxLength) => {
+  if (text.length < maxLength) {
+    return text;
+  }
+  let output = text.substr(0, maxLength);
+  output = output.substr(0, output.lastIndexOf(' '));
+  return `${output} ...`;
+};
+
 class InstagramGrid extends Component {
   render() {
     const { imageData } = this.props;
@@ -46,7 +55,9 @@ class InstagramGrid extends Component {
                       <div className="hovereffect">
                         <img className="img-fluid" src={thumbnail} alt={text} />
                         <div className="overlay">
-                          <span className="info">{text}</span>
+                          <span className="info">
+                            {truncateText(text, 420)}
+                          </span>
                         </div>
                       </div>
                     </a>
