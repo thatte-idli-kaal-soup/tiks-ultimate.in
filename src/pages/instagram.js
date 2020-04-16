@@ -6,7 +6,7 @@ const constructImageGrid = images => {
   let row,
     rowIndex = -1;
   JSONData.GraphImages.map((image, index) => {
-    if (index % 3 == 0) {
+    if (index % 2 == 0) {
       row = [];
       rowIndex += 1;
       imageGrid.push(row);
@@ -32,13 +32,13 @@ const JSONbuildtime = () => {
                 '';
               return (
                 <div
-                  className="col-4 my-2"
+                  className="col-6 my-2"
                   key={`content_item_${data.shortcode}`}
                 >
                   <a href={`https://www.instagram.com/p/${data.shortcode}`}>
                     <img
-                      className="img-fluid"
-                      src={data.thumbnail_resources[2].src}
+                      className="img-fluid rounded"
+                      src={data.thumbnail_resources[3].src}
                       alt={text}
                     />
                   </a>
