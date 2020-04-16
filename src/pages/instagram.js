@@ -5,8 +5,8 @@ const constructImageGrid = images => {
   const imageGrid = [];
   let row,
     rowIndex = -1;
-  JSONData.GraphImages.map((image, index) => {
-    if (index % 3 == 0) {
+  JSONData.GraphImages.forEach((image, index) => {
+    if (index % 3 === 0) {
       row = [];
       rowIndex += 1;
       imageGrid.push(row);
