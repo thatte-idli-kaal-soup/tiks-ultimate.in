@@ -30,6 +30,7 @@ export default class Timeline extends Component {
     return eventList.map((data, index) => {
       return (
         <VerticalTimelineElement
+          key={`event_number_${index}`}
           className="vertical-timeline-element--work"
           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
