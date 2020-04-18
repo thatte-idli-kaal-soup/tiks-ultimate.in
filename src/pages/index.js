@@ -88,6 +88,7 @@ const IndexPage = ({ data }) => (
             <img
               src={images[thenEvent.image]}
               style={{ 'max-height': '200px' }}
+              alt={images[thenEvent.title]}
             />
             <h4>
               <strong>Then</strong>
@@ -103,6 +104,7 @@ const IndexPage = ({ data }) => (
             <img
               src={images[nowEvent.image]}
               style={{ 'max-height': '200px' }}
+              alt={images[nowEvent.title]}
             />
             <h4>
               <strong>Now</strong>
