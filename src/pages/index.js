@@ -87,7 +87,7 @@ const IndexPage = ({ data }) => (
           <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
             <img
               src={images[thenEvent.image]}
-              style={{ 'max-height': '200px' }}
+              style={{ maxHeight: '200px' }}
               alt={images[thenEvent.title]}
             />
             <h4>
@@ -103,7 +103,7 @@ const IndexPage = ({ data }) => (
           <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
             <img
               src={images[nowEvent.image]}
-              style={{ 'max-height': '200px' }}
+              style={{ maxHeight: '200px' }}
               alt={images[nowEvent.title]}
             />
             <h4>
