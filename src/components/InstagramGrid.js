@@ -55,23 +55,41 @@ class InstagramThumbnail extends Component {
 }
 
 class InstagramGrid extends Component {
+  state = { rowCount: 3 };
+  showMoreRows() {
+    const { rowCount } = this.state;
+    this.setState({ rowCount: rowCount + 3 });
+  }
   render() {
     const { imageData } = this.props;
+    const { rowCount } = this.state;
     const imageGrid = constructImageGrid(imageData.GraphImages);
     return (
       <div className="container">
-        {imageGrid.map((imageRow, rowIndex) => {
-          return (
-            <div className="row" key={`image_row_${rowIndex}`}>
-              {imageRow.map(data => (
-                <InstagramThumbnail
-                  key={`thumbnail_${data.shortcode}`}
-                  data={data}
-                />
-              ))}
-            </div>
-          );
-        })}
+        {imageGrid
+          .filter((row, rowIndex) => rowIndex < rowCount)
+          .map((imageRow, rowIndex) => {
+            return (
+              <div className="row" key={`image_row_${rowIndex}`}>
+                {imageRow.map(data => (
+                  <InstagramThumbnail
+                    key={`thumbnail_${data.shortcode}`}
+                    data={data}
+                  />
+                ))}
+              </div>
+            );
+          })}
+        <div style={{ textAlign: 'center' }}>
+          <a
+            className="btn btn-primary"
+            onClick={() => {
+              this.showMoreRows();
+            }}
+          >
+            Show More
+          </a>
+        </div>
       </div>
     );
   }
