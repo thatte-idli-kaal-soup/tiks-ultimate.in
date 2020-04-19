@@ -46,11 +46,11 @@ const IndexPage = ({ data }) => (
         <h3 className="mb-5">
           <em>{config.subHeading}</em>
         </h3>
-        <Scroll type="id" element="about" offset={100}>
+        {/* <Scroll type="id" element="about" offset={100}>
           <a className="btn btn-primary btn-m" href="#timeline">
             Our Journey
           </a>
-        </Scroll>
+        </Scroll> */}
       </div>
       <div className="overlay" />
     </header>
