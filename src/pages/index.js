@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react'
 import { graphql } from 'gatsby';
 
 import InstagramGrid from '../components/InstagramGrid.js';
@@ -12,6 +12,8 @@ import ScrollToTop from '../components/ScrollToTop';
 
 import JSONData from '../../content/thatteidlikaalsoup.json';
 import { eventList, images } from './timeline';
+
+import { Map } from 'react-leaflet'
 
 export const query = graphql`
   query BlogPostsQuery {
@@ -29,6 +31,21 @@ export const query = graphql`
     }
   }
 `;
+
+export class MyMap extends Component {
+  render() {
+    const { options } = this.props
+
+    if (typeof window !== 'undefined') {
+      return (
+        <Map {...options}>
+          {}
+        </Map>
+      )
+    }
+    return null
+  }
+}
 
 const nowEvent = eventList[eventList.length - 1];
 const thenEvent = eventList[0];
