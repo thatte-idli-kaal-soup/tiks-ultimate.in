@@ -102,14 +102,13 @@ const IndexPage = ({ data }) => (
       <div className="container text-center text-white">
         <h1> Come play with us </h1>
         <p>
-          {' '}
           Join us at our practices, you're welcome to join us irrespective of
           your age, gender or physical ability. We have players of all
-          experience levels attending our sessions{' '}
+          experience levels attending our sessions
         </p>
         <p>Where? National college Jayanagar. </p>
         <p>Which days? Every Tuesday, Thursday and Saturday</p>
-        <p>What time? 6:15am to 7:45pm</p>
+        <p>What time? 6:00am to 7:45am</p>
       </div>
       <Map center={position} zoom={18} style={{ height: '400px' }}>
         <TileLayer
