@@ -110,10 +110,10 @@ const IndexPage = ({ data }) => (
         <p>Which days? Every Tuesday, Thursday and Saturday</p>
         <p>What time? 6:00am to 7:45am</p>
       </div>
-      <Map center={position} zoom={18} style={{ height: '400px' }}>
+      <Map center={position} zoom={18} style={{ height: '500px' }}>
         <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          url="https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png"
+          attribution='&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
         />
         <Marker position={position}>
           <Popup>
