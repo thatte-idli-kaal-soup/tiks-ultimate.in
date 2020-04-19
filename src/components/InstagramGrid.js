@@ -81,14 +81,14 @@ class InstagramGrid extends Component {
             );
           })}
         <div style={{ textAlign: 'center' }}>
-          <a
+          <button
             className="btn btn-primary"
             onClick={() => {
               this.showMoreRows();
             }}
           >
             Show More
-          </a>
+          </button>
         </div>
       </div>
     );
