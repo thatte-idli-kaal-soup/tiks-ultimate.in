@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { graphql } from 'gatsby';
 
 import InstagramGrid from '../components/InstagramGrid.js';
@@ -13,7 +13,9 @@ import ScrollToTop from '../components/ScrollToTop';
 import JSONData from '../../content/thatteidlikaalsoup.json';
 import { eventList, images } from './timeline';
 
-import { Map } from 'react-leaflet'
+import { Map, Marker, Popup, TileLayer } from 'react-leaflet'
+
+const position = [51.505, -0.09]
 
 export const query = graphql`
   query BlogPostsQuery {
@@ -31,21 +33,6 @@ export const query = graphql`
     }
   }
 `;
-
-export class MyMap extends Component {
-  render() {
-    const { options } = this.props
-
-    if (typeof window !== 'undefined') {
-      return (
-        <Map {...options}>
-          {}
-        </Map>
-      )
-    }
-    return null
-  }
-}
 
 const nowEvent = eventList[eventList.length - 1];
 const thenEvent = eventList[0];
@@ -132,6 +119,18 @@ const IndexPage = ({ data }) => (
           Google Maps
         </a>
       </div>
+    </section>
+
+    <section className="content-section" id="Maps">
+    <Map center={position} zoom={13}>
+    <TileLayer
+    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+    attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
+    />
+    <Marker position={position}>
+    <Popup>A pretty CSS3 popup.<br />Easily customizable.</Popup>
+    </Marker>
+    </Map>
     </section>
 
     <section
