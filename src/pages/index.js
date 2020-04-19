@@ -95,6 +95,28 @@ const IndexPage = ({ data }) => (
       </div>
     </section>
 
+    <section className="content-section bg-dark" id="come play with us">
+      <div className="container text-center text-white">
+        <h1> Come play with us </h1>
+        <p>
+          {' '}
+          Join us at our practices, you're welcome to join us irrespective of
+          your age, gender or physical ability. We have players of all
+          experience levels attending our sessions{' '}
+        </p>
+
+        <p>Where? National college Jayanagar. </p>
+        <p>Which days? Every Tuesday, Thursday and Saturday</p>
+        <p>What time? 6:15am to 7:45pm</p>
+        <a
+          className="btn btn-light btn-xl"
+          href="https://goo.gl/maps/YhVLf7o5a83Yx1919"
+        >
+          Google Maps
+        </a>
+      </div>
+    </section>
+
     <section
       className="content-section bg-primary text-white text-center"
       id="timeline"

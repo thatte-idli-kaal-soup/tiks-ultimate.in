@@ -45,5 +45,5 @@ module.exports = {
   ],
   email: 'tiks.india.ultimate@gmail.com',
   phone: '000-00000',
-  address: 'Jayanagar, Banglaore, India',
+  address: 'Jayanagar, Bangalore, India',
 };
