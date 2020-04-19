@@ -13,6 +13,8 @@ import ScrollToTop from '../components/ScrollToTop';
 import JSONData from '../../content/thatteidlikaalsoup.json';
 import { eventList, images } from './timeline';
 
+import { Map, Marker, Popup, TileLayer } from 'react-leaflet';
+
 export const query = graphql`
   query BlogPostsQuery {
     allBlogPosts {
@@ -32,6 +34,7 @@ export const query = graphql`
 
 const nowEvent = eventList[eventList.length - 1];
 const thenEvent = eventList[0];
+const position = [12.925456, 77.5782];
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -104,17 +107,26 @@ const IndexPage = ({ data }) => (
           your age, gender or physical ability. We have players of all
           experience levels attending our sessions{' '}
         </p>
-
         <p>Where? National college Jayanagar. </p>
         <p>Which days? Every Tuesday, Thursday and Saturday</p>
         <p>What time? 6:15am to 7:45pm</p>
-        <a
-          className="btn btn-light btn-xl"
-          href="https://goo.gl/maps/YhVLf7o5a83Yx1919"
-        >
-          Google Maps
-        </a>
       </div>
+      <Map center={position} zoom={18} style={{ height: '400px' }}>
+        <TileLayer
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        />
+        <Marker position={position}>
+          <Popup>
+            <a
+              className="btn btn-light btn-xl"
+              href="https://goo.gl/maps/YhVLf7o5a83Yx1919"
+            >
+              National College Jayanagar
+            </a>
+          </Popup>
+        </Marker>
+      </Map>
     </section>
 
     <section
