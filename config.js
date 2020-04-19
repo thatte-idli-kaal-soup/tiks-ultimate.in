@@ -28,6 +28,11 @@ module.exports = {
       url: 'https://facebook.com/Thatte-Idli-Kaal-Soup-448323595322728',
     },
     {
+      icon: 'icon-social-youtube',
+      name: 'Youtube',
+      url: 'https://www.youtube.com/channel/UCq1eqfGIwd2Emnqy165FoTw',
+    },
+    {
       icon: 'fab fa-whatsapp',
       name: 'Whatsapp',
       url: 'https://chat.whatsapp.com/BtFckWSu2WPJ5I8XP4ihPJ',
