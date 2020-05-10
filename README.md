@@ -30,3 +30,11 @@ export POSTS_API_URL=<RSVP_APP_URL>/api/posts
 ```
 
 Replace `<RSVP_APP_URL>` with the actual URL.
+
+
+## How does the Instagram feed work?
+
+We use a cron job on Travis CI to update our Instagram feed. We use a
+instagram-scraper to scrape our latest posts, and write them to a .json file.
+This updated json file is committed to the repository, which triggers a build on
+Netlify.
