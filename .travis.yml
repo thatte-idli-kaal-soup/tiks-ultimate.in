@@ -7,6 +7,6 @@ env:
 install:
   - pip install -r requirements.txt
 script:
-  - instagram-scraper --media-metadata --media-types='none'  -d content thatteidlikaalsoup
+  - instagram-scraper --media-metadata --media-types='none'  -d content tiks_ultimate
 after_script:
   - ./push_to_git.sh

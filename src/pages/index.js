@@ -10,7 +10,7 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import ScrollToTop from '../components/ScrollToTop';
 
-import JSONData from '../../content/thatteidlikaalsoup.json';
+import JSONData from '../../content/tiks_ultimate.json';
 import { eventList, images } from './timeline';
 
 import { Map, Marker, Popup, TileLayer } from 'react-leaflet';

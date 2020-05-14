@@ -20,7 +20,7 @@ module.exports = {
     {
       icon: 'icon-social-instagram',
       name: 'Instagram',
-      url: 'https://instagram.com/thatteidlikaalsoup',
+      url: 'https://instagram.com/tiks_ultimate',
     },
     {
       icon: 'icon-social-facebook',
