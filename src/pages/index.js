@@ -43,12 +43,6 @@ const IndexPage = ({ data }) => (
               the opposing team’s goal line. It is a Non-Contact, Mixed Gender
               sport known for its Spirit of the Game.
             </p>
-            <Scroll type="id" element="services" offset={100}>
-              <a className="btn btn-dark btn-xl" href="#services">
-                {/* Create a component to manage ultimate related blogs */}
-                More about the game
-              </a>
-            </Scroll>
           </div>
         </div>
       </div>
