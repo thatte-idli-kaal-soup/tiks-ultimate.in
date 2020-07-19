@@ -48,11 +48,21 @@ const IndexPage = ({ data }) => (
       </div>
     </section>
 
-    <section className="content-section bg-dark" id="come play with us">
+    <section className="content-section" id="gallery">
+      <div className="container">
+        <div className="content-section-heading text-center">
+          {/* <h3 className="text-secondary mb-0">Gallery</h3> */}
+          <h2 className="mb-5">Gallery</h2>
+        </div>
+      </div>
+      <InstagramGrid imageData={JSONData} />
+    </section>
+
+    <section className="content-section bg-dark" id="come-play">
       <div className="container text-center text-white">
         <h1> Come play with us </h1>
         <p>
-          Join us at our practices, you're welcome to join us irrespective of
+          Join us at our practices, you are welcome to join us irrespective of
           your age, gender or physical ability. We have players of all
           experience levels attending our sessions
         </p>
@@ -76,16 +86,6 @@ const IndexPage = ({ data }) => (
           </Popup>
         </Marker>
       </Map>
-    </section>
-
-    <section className="content-section" id="gallery">
-      <div className="container">
-        <div className="content-section-heading text-center">
-          {/* <h3 className="text-secondary mb-0">Gallery</h3> */}
-          <h2 className="mb-5">Gallery</h2>
-        </div>
-      </div>
-      <InstagramGrid imageData={JSONData} />
     </section>
 
     <ScrollToTop />
