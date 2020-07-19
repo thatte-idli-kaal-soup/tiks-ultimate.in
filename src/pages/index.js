@@ -1,5 +1,4 @@
 import React from 'react';
-import { graphql } from 'gatsby';
 
 import InstagramGrid from '../components/InstagramGrid.js';
 import Layout from '../components/Layout';
@@ -14,23 +13,6 @@ import JSONData from '../../content/tiks_ultimate.json';
 import { eventList, images } from './timeline';
 
 import { Map, Marker, Popup, TileLayer } from 'react-leaflet';
-
-export const query = graphql`
-  query BlogPostsQuery {
-    allBlogPosts {
-      edges {
-        node {
-          id
-          title
-          authors
-          fields {
-            slug
-          }
-        }
-      }
-    }
-  }
-`;
 
 const nowEvent = eventList[eventList.length - 1];
 const thenEvent = eventList[0];
@@ -72,27 +54,6 @@ const IndexPage = ({ data }) => (
                 More about the game
               </a>
             </Scroll>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section className="content-section bg-secondary text-white" id="posts">
-      <div className="container text-center">
-        <div className="row">
-          <div className="col-lg-10 mx-auto">
-            <h2>Blog Posts</h2>
-            <div>
-              {data.allBlogPosts.edges
-                .filter(({ node }) => node.id !== 'dummy')
-                .map(({ node }) => (
-                  <div key={node.fields.slug}>
-                    <h5>
-                      <a href={`/post/${node.fields.slug}`}>{node.title}</a>
-                    </h5>
-                  </div>
-                ))}
-            </div>
           </div>
         </div>
       </div>
