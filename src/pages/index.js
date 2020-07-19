@@ -60,15 +60,18 @@ const IndexPage = ({ data }) => (
 
     <section className="content-section bg-dark" id="come-play">
       <div className="container text-center text-white">
-        <h1> Come play with us </h1>
-        <p>
-          Join us at our practices, you are welcome to join us irrespective of
-          your age, gender or physical ability. We have players of all
-          experience levels attending our sessions
-        </p>
-        <p>Where? National college Jayanagar. </p>
-        <p>Which days? Every Tuesday, Thursday and Saturday</p>
-        <p>What time? 6:00am to 7:45am</p>
+        <h1>Come play with us</h1>
+        <p><strong>We are waiting for the Pandemic to end...</strong></p>
+        <strike>
+          <p>
+            Join us at our practices, you are welcome to join us irrespective of
+            your age, gender or physical ability. We have players of all
+            experience levels attending our sessions
+          </p>
+          <p>Where? National college Jayanagar. </p>
+          <p>Which days? Every Tuesday, Thursday and Saturday</p>
+          <p>What time? 6:00am to 7:45am</p>
+        </strike>
       </div>
       <Map center={position} zoom={18} style={{ height: '500px' }}>
         <TileLayer
