@@ -1,31 +1,109 @@
 [
-    {
-        "date":"2011 - present",
-        "title":"NCS NAtionals",
-        "subtitle":"Bangalore",
-        "description":"Final seed - 8th",
-        "image":"nationals"
-    },
-    {
-        "date":"2018 - 2019",
-        "title":"NCS 2 Single Gender Regionals",
-        "subtitle":"Bangalore",
-        "description":"Final Seed : Opens - 9th , Womens - 3rd",
-        "image":"kodai"
-    },
-    {
-        "date":"2018 - 2019",
-        "title":"NCS NAtionals",
-        "subtitle":"Bangalore",
-        "description":"Final seed - 8th",
-        "image":"mdp"
-    },
-    {
-        "date":"2018 - 2019",
-        "title":"NCS NAtionals",
-        "subtitle":"Bangalore",
-        "description":"Final seed - 8th",
-        "image":"saturday"
-    }
-
+  {
+    "title": "BUO 2017, Discturbia",
+    "date": "July 2017",
+    "subtitle": "Bangalore",
+    "seed": 31,
+    "position": 26,
+    "spirit_rank": 10,
+    "captain": "KK",
+    "description": "The first 7 v 7 tournament for Discturbia, and everyone in the team had lots of fun, and was super happy with the performance."
+  },
+  {
+    "title": "BUO 2017, Dabaki",
+    "date": "July 2017",
+    "subtitle": "Bangalore",
+    "seed": 21,
+    "position": 20,
+    "spirit_rank": 11,
+    "image": "https://instagram.fbom1-1.fna.fbcdn.net/t51.2885-15/e35/20347770_847093995449536_5271581810445254656_n.jpg"
+  },
+  {
+    "title": "BUO 2017, TIKS",
+    "date": "July 2017",
+    "subtitle": "Bangalore",
+    "seed": 9,
+    "position": 12,
+    "spirit_rank": 21,
+    "captain": "Aishu"
+  },
+  {
+    "title": "BUO 2017",
+    "date": "July 2017",
+    "description": "TIKS & Dabaki organized tournament. It went off pretty smoothly, but was a lot of work!"
+  },
+  {
+    "title": "MUO 2017, TIKS",
+    "date": "March 2017",
+    "subtitle": "Mumbai",
+    "seed": 8,
+    "position": 7,
+    "spirit_rank": 25,
+    "description": "Moby played with us and it was a great tournament!",
+    "captain": "Aishu"
+  },
+  {
+    "title": "MUO-2017, Dabaki",
+    "subtitle": "Mumbai",
+    "date": "March 2017",
+    "seed": 18,
+    "position": 19,
+    "spirit_rank": 14,
+    "image": "https://instagram.fbom1-1.fna.fbcdn.net/t51.2885-15/e35/17493708_494124477377848_4094232791011557376_n.jpg"
+  },
+  {
+    "title": "AUO-2017",
+    "date": "Jan 2017",
+    "subtitle": "Ahmedabad",
+    "description": "",
+    "position": 8,
+    "seed": 11,
+    "spirit_rank": 15,
+    "captain": "Aishu"
+  },
+  {
+    "date": "2016",
+    "title": "BUO - 2016",
+    "subtitle": "Bangalore",
+    "position": 11,
+    "image": "https://scontent.fblr2-1.fna.fbcdn.net/v/t31.0-8/14124378_658919457596473_3412496361020321294_o.jpg?oh=54f005261ffd2a6e5f29a9f17ff9cf50&oe=5A25BF19"
+  },
+  {
+    "date": "March 19, 2016",
+    "title": "Dabaki was born",
+    "subtitle": "Bangalore",
+    "image": "https://instagram.fblr2-1.fna.fbcdn.net/v/t51.2885-15/e35/17076066_1889687237931826_5023099432472674304_n.jpg?_nc_ht=instagram.fblr2-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=K1-8g3hXUCoAX8cMOls&oh=c3d433bb2130ad9763f66793d3519f2e&oe=5F3E17BB",
+    "description": "\"And suddenly... It's time to start something new and trust the magic of beginnings\" -- the birth of Dabaki"
+  },
+  {
+    "date": "2016",
+    "title": "AUO - 2016",
+    "subtitle": "Ahmedabad",
+    "image": "https://scontent.fbom1-1.fna.fbcdn.net/v/t31.0-8/12493538_559904474164639_2572705934556014733_o.jpg?oh=2a5e57aa44b8e41f29ff3fa510ce3b07&oe=5A269E60"
+  },
+  {
+    "date": "2015",
+    "title": "BUO - 2015",
+    "subtitle": "Bangalore",
+    "image": "https://scontent.fblr2-1.fna.fbcdn.net/v/t1.0-9/11088226_448338698654551_1609753145795521436_n.jpg?_nc_cat=109&_nc_sid=2d5d41&_nc_ohc=0WQws1vK-jMAX9eEMJJ&_nc_ht=scontent.fblr2-1.fna&oh=af08f23a3c485b3a4d0b7b9280edb08d&oe=5F3B1CDB",
+    "description": "",
+    "seed": 16,
+    "position": 17
+  },
+  {
+    "date": "2015",
+    "title": "MUO - 2015",
+    "subtitle": "Mumbai",
+    "image": "https://scontent.fbom1-1.fna.fbcdn.net/v/t31.0-8/11200971_467444450077309_1107727136876053103_o.jpg?oh=e7ad5fad2d011784a804a0ae46173501&oe=5A14785D",
+    "description": ""
+  },
+  {
+    "date": "2014",
+    "title": "BUO - 2014",
+    "subtitle": "Bangalore",
+    "image": "https://scontent.fblr2-1.fna.fbcdn.net/v/t1.0-9/11088226_448338698654551_1609753145795521436_n.jpg?oh=db05d69ac2ec6468fdfd8ccca629cc4e&oe=5A613225",
+    "description": "It was our first tournament...",
+    "seed": 23,
+    "position": 22
+  }
 ]

@@ -25,6 +25,8 @@ const images = importAll(
   require.context('../assets/images/', false, /\.(png|jpe?g|svg)$/)
 );
 
+const URLRegExp = /https?:\/\//;
+
 export default class Timeline extends Component {
   createTimeline() {
     return eventList.map((data, index) => {
@@ -41,8 +43,20 @@ export default class Timeline extends Component {
             {data.subtitle}
           </h4>
           <br />
-          <img className="img-fluid" src={images[data.image]} alt="" />
+          <img
+            className="img-fluid"
+            src={URLRegExp.test(data.image) ? data.image : images[data.image]}
+            alt=""
+          />
           <p>{data.description}</p>
+          {data.seed ? <p>Seed: {data.seed}</p> : undefined}
+          {data.position ? <p>Position: {data.position}</p> : undefined}
+          {data.spirit_rank ? (
+            <p>Spirit Ranking: {data.spirit_rank}</p>
+          ) : (
+            undefined
+          )}
+          {data.captain ? <p>Captain: {data.captain}</p> : undefined}
         </VerticalTimelineElement>
       );
     });
