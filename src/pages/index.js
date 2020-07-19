@@ -84,47 +84,6 @@ const IndexPage = ({ data }) => (
       </Map>
     </section>
 
-    <section
-      className="content-section bg-primary text-white text-center"
-      id="timeline"
-    >
-      <div className="container">
-        <div className="content-section-heading">
-          {/* <h3 className="text-secondary mb-0">Our Journey</h3> */}
-          <h2 className="mb-5">Our Journey</h2>
-        </div>
-        <div className="row">
-          <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <img
-              src={images[thenEvent.image]}
-              style={{ maxHeight: '200px' }}
-              alt={images[thenEvent.title]}
-            />
-            <h4>
-              <strong>Then</strong>
-            </h4>
-            <p className="text-faded mb-0">{thenEvent.date}</p>
-          </div>
-          <div className="col-lg-6 col-md-9 mb-5 ">
-            <a className="btn btn-dark btn-xl" href="/timeline">
-              See the Timeline
-            </a>
-          </div>
-          <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <img
-              src={images[nowEvent.image]}
-              style={{ maxHeight: '200px' }}
-              alt={images[nowEvent.title]}
-            />
-            <h4>
-              <strong>Now</strong>
-            </h4>
-            <p className="text-faded mb-0">{nowEvent.date}</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section className="content-section" id="gallery">
       <div className="container">
         <div className="content-section-heading text-center">
