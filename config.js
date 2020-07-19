@@ -1,4 +1,4 @@
-const description = 'Ultimate Frisbee Sports Club from South Bangalore';
+const description = 'Ultimate Frisbee Sports Club';
 module.exports = {
   siteTitle: 'Thatte Idli Kaal Soup', // <title>
   siteDescription: description,
