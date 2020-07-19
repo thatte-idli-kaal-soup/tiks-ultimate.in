@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import JSONData from '../../content/thatteidlikaalsoup.json';
+import JSONData from '../../content/tiks_ultimate.json';
 
 import '../assets/sass/bootstrap/bootstrap-grid.min.css';
 import '../assets/sass/instagram-grid.css';
