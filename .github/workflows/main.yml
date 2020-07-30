@@ -3,13 +3,7 @@ name: Publish Site
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
-on:
-  push:
-    branches: [ master ]
-  # Add run this workflow button to GH
-  workflow_dispatch:
-  schedule:
-    - cron: '0 */12 * * *'
+on: [push, pull_request, workflow_dispatch]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -26,7 +20,7 @@ jobs:
     - uses: BSFishy/pip-action@v1
       with:
         requirements: requirements.txt
-    - run: instagram-scraper --media-metadata --media-types='none' -d content tiks_ultimate -u ${{ secrets.IG_USERNAME }} -p ${{ secrets.IG_PASSWORD }}
+    - run: instagram-scraper -i --media-metadata --media-types='none' -d content tiks_ultimate -u ${{ secrets.IG_USERNAME }} -p ${{ secrets.IG_PASSWORD }}
     - name: Gatsby Publish
       uses: enriikke/gatsby-gh-pages-action@v2.1.1
       with:

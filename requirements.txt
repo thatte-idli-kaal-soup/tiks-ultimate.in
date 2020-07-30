@@ -1,1 +1,1 @@
-instagram-scraper==1.9.0
+-e git+https://github.com/punchagan/instagram-scraper.git@214302ecc8185c553b48741b713be06b9d267108#egg=instagram-scraper
