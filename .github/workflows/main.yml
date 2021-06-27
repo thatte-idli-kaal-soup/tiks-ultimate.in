@@ -27,3 +27,5 @@ jobs:
         access-token: ${{ secrets.GH_ACCESS_TOKEN }}
         # The branch expected by GitHub to have the static files needed for your site.
         deploy-branch: gh-pages
+        git-config-name: TIKS Gatsby Deploy Bot
+        git-config-email: tiks.india.ultimate+deploybot@gmail.com
