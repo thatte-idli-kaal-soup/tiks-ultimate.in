@@ -3,3 +3,4 @@
 /.cache/
 /public/*
 .DS_Store
+/instagram-scraper.log
