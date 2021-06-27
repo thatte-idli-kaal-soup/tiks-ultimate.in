@@ -38,7 +38,9 @@ class InstagramThumbnail extends Component {
       (data.edge_media_to_caption.edges.length > 0 &&
         data.edge_media_to_caption.edges[0].node.text) ||
       '';
-    const thumbnail = data.thumbnail_src;
+    const url = new URL(data.thumbnail_src);
+    const filename = url.pathname.match(/.*?([^/]*jpg)/)[1];
+    const thumbnail = `/thumbnails/${filename}`;
     return (
       <div className="col-4 my-1 px-1">
         <a href={`https://www.instagram.com/p/${data.shortcode}`}>
