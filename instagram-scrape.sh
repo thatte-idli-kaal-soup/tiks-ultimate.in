@@ -17,7 +17,14 @@ function download_thumbnails {
 }
 
 function fetch_instagram {
+    OLD_COUNT=$(jq -r '.GraphImages | length' content/tiks_ultimate.json)
     instagram-scraper --media-metadata --media-types='none' -d content tiks_ultimate
+    NEW_COUNT=$(jq -r '.GraphImages | length' content/tiks_ultimate.json)
+    if [ $OLD_COUNT = $NEW_COUNT ]; then
+        echo "No new posts"
+        git checkout  -- content/
+        exit 0
+    fi
     download_thumbnails
 }
 
