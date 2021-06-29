@@ -19,15 +19,18 @@ function download_thumbnails {
 function fetch_instagram {
     instagram-scraper --media-metadata --media-types='none' -d content tiks_ultimate
     download_thumbnails
+}
+
+function update_site_repo {
     git add content/
     git add static/thumbnails/
     git commit -m "Updating instagram feed in a cron" \
         --author "TIKS Cron Job <tiks.india.ultimate+cronjob@gmail.com>"
+    git pull --rebase origin master
+    git push origin master
 }
-
 
 pushd $(dirname $0)
 source .envrc
 fetch_instagram
-git pull --rebase origin master
-git push origin master
+update_site_repo
