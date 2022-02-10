@@ -19,7 +19,7 @@
     "gatsby-plugin-sass": "^2.2.0",
     "gatsby-source-apiserver": "^2.1.4",
     "leaflet": "^1.6.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
