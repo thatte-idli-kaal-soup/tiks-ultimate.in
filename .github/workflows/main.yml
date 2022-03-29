@@ -1,0 +1,33 @@
+---
+on:
+  push:
+    branches: [main]
+  # Add run this workflow button to GH
+  workflow_dispatch:
+
+jobs:
+  build_and_deploy_hugo_site:
+    runs-on: ubuntu-latest
+    name: Build and deploy Hugo site
+
+    steps:
+      - name: Checkout repo on source_branch
+        uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+          # <<recommended if project uses git submodules for any purpose>>
+          # <<required if deploying to git submodule directory>>
+          # token: ${{ secrets.MY_SECRET }}   # <<if needed for private repos>>
+          fetch-depth: '0'
+          # <<fetch-depth: '0' currently required until shallow clone problems are solved>>
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.96.0'
+
+      - name: Build site and push to release branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          bash ./deploy.sh
