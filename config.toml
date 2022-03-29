@@ -1,32 +1,43 @@
-# Page settings
-baseurl = "https://thatteidlikaalsoup.team"
-languageCode = "en-us"
-theme = "beautifulhugo"
-title = "Thatte Idli Kaal Soup"
-googleAnalytics = "UA-105305610-1"
+baseURL = "https://tiks-ultimate.in"
+
+# This is a "one page"-website, so we do not need these kinds of pages...
+disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
+
+defaultContentLanguage = "en"
+
+# The name of this wonderful theme ;-).
+theme = "hugo-scroll"
+
+# The "title" of your website
+title = "TIKS Ultimate"
+
+ignoreErrors = ["error-missing-instagram-accesstoken"]
 
 [params]
-  subtitle = "An Ultimate Frisbee club from South Bangalore"
-  logo = "images/tiks-logo.png"
-  favicon = "images/tiks-logo.ico"
-  dateFormat = "January 2, 2006"
-  rss = true
-  commit = false
-  comments = false
+    # A "copyright"-line to be added at the bottom of the page.
+    # Hint: Markdown is supported in here as well. So you may e.g. add a link to your legal imprint-page.
+    copyright = "© TIKS Ultimate"
 
-[author]
-  email = "tiks.india.ultimate@gmail.com"
-  facebook = "Thatte-Idli-Kaal-Soup-448323595322728"
-  instagram = "thatteidlikaalsoup"
-  # youtube = "user/username" # or channel/channelname
+    # The "description" of your website. This is used in the meta data of your generated html.
+    description = "Ultimate Frisbee team from South Bangalore"
 
+    # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
+    favicon = "images/tiks.png"
 
-[[menu.main]]
-    name = "About"
-    url = "about/"
-    weight = 1
+    # These "images" are used for the structured data templates. This will show up, when
+    # services like Twitter or Slack want to generate a preview of a link to your site.
+    # See https://gohugo.io/templates/internal#twitter-cards and
+    # https://gohugo.io/templates/internal#open-graph.
+    images = ["images/banner.jpg"]
 
-[[menu.main]]
-    name = "Favorites"
-    url = "favorites/"
-    weight = 2
+    # Another "title" :-). This one is used as the site_name on the Hugo's internal
+    # opengraph structured data template.
+    # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
+    title = "TIKS Ultimate - Ultimate Frisbee team from South Bangalore"
+
+    # This theme will, by default, inject a design-by-line at the bottom of the page.
+    # You can turn it off, but we would really appreciate if you don’t :-)
+    hidedesignbyline = true
+
+    [params.meta]
+      keywords =  "ultimate, frisbee, bangalore, sports, flying disc, tiks, mixed gender, thatte idli, thatte idli kaal soup, bengaluru, south bangalore, jayanagar, non-contact"
