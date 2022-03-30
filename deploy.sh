@@ -19,8 +19,8 @@ hugo
 # Push to GitHub
 pushd "${PUBLIC_DIR}"
 git init
-git config user.email "punchagan@muse-amuse.in"
-git config user.name "TravisCI auto commit"
+git config user.email "punchagan+ghactions@muse-amuse.in"
+git config user.name "punchagan (gh-actions)"
 git add .
 git commit -m "Deploy to GitHub Pages"
 git push --force --quiet "${GIT_URL}" master:gh-pages
