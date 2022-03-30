@@ -4,6 +4,8 @@ date: 2022-03-30T07:30:19+05:30
 draft: false
 ---
 
+![MIL 2022 Poster](../images/mil-2022-poster.jpg)
+
 ## Teams {#teams}
 
 | Team 1           | Team 2       | Team 3          | Team 4          |
