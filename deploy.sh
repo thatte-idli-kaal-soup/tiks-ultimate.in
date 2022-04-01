@@ -3,6 +3,11 @@ set -e
 
 PUBLIC_DIR="public"
 
+fetch_data () {
+    curl -L "${RULES_2022}"  --output data/rules-2022.docx
+    pandoc data/rules-2022.docx -o data/rules-2022.md --shift-heading-level-by=1
+}
+
 # Push to GitHub
 deploy () {
     if [ -z "${GITHUB_TOKEN}" ]
@@ -29,6 +34,7 @@ build () {
 }
 
 pushd $(dirname $0)
+fetch_data
 build
 deploy
 popd
