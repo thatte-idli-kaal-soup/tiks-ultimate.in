@@ -6,18 +6,18 @@ draft: false
 
 ![MIL 2022 Poster](../images/mil-2022-poster.jpg)
 
-## Teams {#teams}
-
-{{% include "./data/teams-2022.md" %}}
-
-## Schedule {#league-schedule}
+## Schedule {#schedule}
 
 {{% include "./data/schedule-2022.md" %}}
 
 The schedule is *tentative* and is subject to change as the league progresses.
 Captains will be notified of any changes.
 
-## League Format and Rules {#league-format-and-rules}
+## Teams {#teams}
+
+{{% include "./data/teams-2022.md" %}}
+
+## League Format and Rules {#format-and-rules}
 
 {{% include "./data/rules-2022.md" %}}
 
