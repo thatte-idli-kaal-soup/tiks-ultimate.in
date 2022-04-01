@@ -28,7 +28,10 @@ jobs:
 
       - name: Install Pandoc
         run: |
-          sudo apt install pandoc
+          wget -c https://github.com/jgm/pandoc/releases/download/2.17.1.1/pandoc-2.17.1.1-linux-amd64.tar.gz
+          tar xzf pandoc-2.17.1.1-linux-amd64.tar.gz
+          sudo mkdir -p /usr/local/bin/
+          sudo cp pandoc-2.17.1.1/bin/pandoc /usr/local/bin/
 
       - name: Build site and push to release branch
         env:
