@@ -33,5 +33,6 @@ jobs:
       - name: Build site and push to release branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RULES_2022: ${{ secrets.RULES_2022 }}
         run: |
           bash ./deploy.sh
