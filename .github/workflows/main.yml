@@ -39,5 +39,7 @@ jobs:
           RULES_2022: ${{ secrets.RULES_2022 }}
           TEAMS_2022: ${{ secrets.TEAMS_2022 }}
           SCHEDULE_2022: ${{ secrets.SCHEDULE_2022 }}
+          POINTS_2022: ${{ secrets.POINTS_2022 }}
+          SCORES_2022: ${{ secrets.SCORES_2022 }}
         run: |
           bash ./deploy.sh

@@ -6,6 +6,14 @@ draft: false
 
 ![MIL 2022 Poster](../images/mil-2022-poster.jpg)
 
+## League Points {#points}
+
+{{% include "./data/points-2022.md" %}}
+
+## Match Scores {#scores}
+
+{{% include "./data/scores-2022.md" %}}
+
 ## Schedule {#schedule}
 
 {{% include "./data/schedule-2022.md" %}}

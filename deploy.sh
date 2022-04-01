@@ -13,6 +13,12 @@ fetch_data () {
     # Schedule
     curl -L "${SCHEDULE_2022}"  --output data/schedule-2022.csv
     pandoc data/schedule-2022.csv -o data/schedule-2022.md -t gfm
+    # Points
+    curl -L "${POINTS_2022}"  --output data/points-2022.csv
+    pandoc data/points-2022.csv -o data/points-2022.md -t gfm
+    # Scores
+    curl -L "${SCORES_2022}"  --output data/scores-2022.csv
+    pandoc data/scores-2022.csv -o data/scores-2022.md -t gfm
 }
 
 # Push to GitHub
