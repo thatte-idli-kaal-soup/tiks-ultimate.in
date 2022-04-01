@@ -4,8 +4,12 @@ set -e
 PUBLIC_DIR="public"
 
 fetch_data () {
+    # Rules
     curl -L "${RULES_2022}"  --output data/rules-2022.docx
     pandoc data/rules-2022.docx -o data/rules-2022.md --shift-heading-level-by=1
+    # Teams
+    curl -L "${TEAMS_2022}"  --output data/teams-2022.csv
+    pandoc data/teams-2022.csv -o data/teams-2022.md -t gfm
 }
 
 # Push to GitHub
