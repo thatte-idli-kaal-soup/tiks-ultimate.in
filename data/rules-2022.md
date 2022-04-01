@@ -26,8 +26,8 @@ Play continues until one of the teams reaches this time cap target
 before hard stop (at 35min).\
 Hard Stop at 35 min, Team with the Highest Point Wins.
 
-In case of a tie at hardstop we'll use a race-to-3 4v4 game as a
-tiebreaker.
+In case of a tie at hardstop, the team with the highest non-goal points
+wins. (See section below on Points)
 
 ### Half time
 
