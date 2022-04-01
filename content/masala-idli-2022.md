@@ -8,24 +8,7 @@ draft: false
 
 ## Teams {#teams}
 
-| Team 1           | Team 2       | Team 3          | Team 4          |
-|------------------|--------------|-----------------|-----------------|
-| **Aishu**        | **Ranjan**   | **Haritha**     | **Akilesh**     |
-| **Appu**         | **Tez**      | **Pavan**       | **Prakruthi**   |
-| Bugsy            | Advait       | Bharath (Poba)  | AFR             |
-| Chaitra          | Aman Mehta   | Dhivya          | Amith           |
-| Harsha M Krishna | Eddie        | KK              | Ananth SG       |
-| Kedi             | Megha        | Kavi            | Arvind S        |
-| Keerthana J      | Mohith       | Nandini         | Charmaine       |
-| Netha            | Nikki        | Ppr             | Iris Rose John  |
-| Nicolai          | Nimisha      | Punch           | Karthik K       |
-| Nishil           | Prajwal M    | Rahul           | Kasi            |
-| Pai              | Rakshith     | Ringo           | Kavya Singaraju |
-| Pani             | Samhita Bhat | Sasi            | Keerthika       |
-| Saqlain          | Sanjana      | Sid (Siddharth) | Salman          |
-| Sweatha          | VK           | Sree            | Sheetal         |
-| Vijay S          | Zen          | Tanushree P     | Shilpi          |
-
+{{% include "./data/teams-2022.md" %}}
 
 ## FAQ
 
@@ -72,18 +55,6 @@ friends.
 
 The schedule is **tentative** and is subject to change, as the league
 progresses.  Captains will be notified of any changes.
-
-
-<!-- ## Scores and Points table {#scores-and-points-table} -->
-
-<!-- | A                 |       |       | B                     | -->
-<!-- |-------------------|-------|-------|-----------------------| -->
-<!-- | **Hubba Hubba**   | **9** | 1     | GST                   | -->
-<!-- | Discpickable Us 3 | 6     | **9** | **Force Four**        | -->
-<!-- | GST               | 4     | **8** | **Force Four**        | -->
-<!-- | Hubba Hubba       | 5     | **9** | **Discpickable Us 3** | -->
-<!-- | Hubba Hubba       | 4     | **7** | **Force Four**        | -->
-<!-- | GST               | 8     | 8     | Discpickable Us 3     | -->
 
 
 ## League format and Rules {#league-format-and-rules}
