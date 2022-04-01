@@ -10,6 +10,17 @@ draft: false
 
 {{% include "./data/teams-2022.md" %}}
 
+## Schedule {#league-schedule}
+
+{{% include "./data/schedule-2022.md" %}}
+
+The schedule is *tentative* and is subject to change as the league progresses.
+Captains will be notified of any changes.
+
+## League Format and Rules {#league-format-and-rules}
+
+{{% include "./data/rules-2022.md" %}}
+
 ## FAQ
 
 - _I just attended two sessions. Is it ok for me to join the league?_
@@ -44,19 +55,3 @@ friends.
 - _I played ultimate long back and stopped playing. Can I come anyway?_
 
 *HELL YEAH! JUSHT YOU COME BACK!*
-
-
-## League Schedule {#league-schedule}
-
-
-| Date | 6:05 -- 6:50 am | 6:55 - 7:40 am |
-|------|-----------------|----------------|
-| TBD  |                 |                |
-
-The schedule is **tentative** and is subject to change, as the league
-progresses.  Captains will be notified of any changes.
-
-
-## League format and Rules {#league-format-and-rules}
-
-{{% include "./data/rules-2022.md" %}}

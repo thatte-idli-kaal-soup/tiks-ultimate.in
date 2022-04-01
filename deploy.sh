@@ -10,6 +10,9 @@ fetch_data () {
     # Teams
     curl -L "${TEAMS_2022}"  --output data/teams-2022.csv
     pandoc data/teams-2022.csv -o data/teams-2022.md -t gfm
+    # Schedule
+    curl -L "${SCHEDULE_2022}"  --output data/schedule-2022.csv
+    pandoc data/schedule-2022.csv -o data/schedule-2022.md -t gfm
 }
 
 # Push to GitHub
