@@ -37,5 +37,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RULES_2022: ${{ secrets.RULES_2022 }}
+          TEAMS_2022: ${{ secrets.TEAMS_2022 }}
+          SCHEDULE_2022: ${{ secrets.SCHEDULE_2022 }}
         run: |
           bash ./deploy.sh
