@@ -1,3 +1,5 @@
 public/
 /node_modules/
 /data/*.docx
+/data/schedule-2022.csv
+/data/teams-2022.csv
