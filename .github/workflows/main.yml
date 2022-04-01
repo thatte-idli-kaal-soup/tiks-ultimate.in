@@ -26,6 +26,10 @@ jobs:
         with:
           hugo-version: '0.96.0'
 
+      - name: Install Pandoc
+        run: |
+          sudo apt install pandoc
+
       - name: Build site and push to release branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
