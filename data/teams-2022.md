@@ -1,4 +1,4 @@
-| Cutternaak       | Uppi2        | Netflicks & Chill | Throwjans       |
+| Cutternaak       | Upitwo       | Netflicks & Chill | Throwjans       |
 | ---------------- | ------------ | ----------------- | --------------- |
 | Aishu (c)        | Tez (c)      | Haritha (c)       | Prakruthi (c)   |
 | Appu (c)         | Ranjan (c)   | Pavan (c)         | Akilesh (c)     |
