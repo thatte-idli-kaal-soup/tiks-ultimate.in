@@ -7,8 +7,8 @@ on:
   schedule:
     # At 05:30 on every day-of-week from Sunday through Friday.
     - cron: '30 5 * * 0-5'
-    # At every 30th minute past every hour from 0 through 10 on Saturday.
-    - cron: '*/30 0-10 * * 6'
+    # At every 15th minute past every hour from 0 through 10 on Saturday.
+    - cron: '*/15 0-10 * * 6'
 
 jobs:
   build_and_deploy_hugo_site:
