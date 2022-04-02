@@ -32,11 +32,12 @@ deploy () {
     fi
     pushd "${PUBLIC_DIR}"
     git init
+    git branch -M main
     git config user.email "punchagan+ghactions@muse-amuse.in"
     git config user.name "punchagan (gh-actions)"
     git add .
     git commit -m "Deploy to GitHub Pages"
-    git push --force --quiet "${GIT_URL}" master:gh-pages
+    git push --force --quiet "${GIT_URL}" main:gh-pages
     popd
 }
 
