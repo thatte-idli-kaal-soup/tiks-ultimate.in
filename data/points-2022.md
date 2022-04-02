@@ -1,6 +1,6 @@
-| Team | League Points | Bonus Points |
-| ---- | ------------- | ------------ |
-| 1    |               |              |
-| 2    |               |              |
-| 3    |               |              |
-| 4    |               |              |
+| Team              | League Points | Bonus Points |
+| ----------------- | ------------- | ------------ |
+| Cutternaak        | 0             | 1            |
+| Uppi2             | 2             | 2.5          |
+| Netflix and Chill | 0             | 0.5          |
+| Throwjan          | 2             | 1            |
