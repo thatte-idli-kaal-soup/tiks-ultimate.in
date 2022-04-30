@@ -6,7 +6,7 @@ draft: false
 
 ![MIL 2022 Poster](../images/mil-2022-poster.jpg)
 
-## League Points {#points}
+## Points Table {#points}
 
 {{% include "./data/points-2022.md" %}}
 
