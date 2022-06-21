@@ -4,6 +4,14 @@ date: 2022-03-30T07:30:19+05:30
 draft: false
 ---
 
+MIL 2022 was won by Netflicks & Chill in a thrilling final against Uppitwo that was very closely fought. Here's some pictures of the finalists and a final closing picture!
+
+![Netflicks and Chill](../images/netflicks-chill.jpg)
+
+![Uppitwo](../images/uppitwo.jpg)
+
+![Netflicks and Chill](../images/mil-2022-closing.jpg)
+
 ## Points Table {#points}
 
 {{% include "./data/points-2022.md" %}}
