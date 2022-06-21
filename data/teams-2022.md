@@ -15,4 +15,4 @@
 | Smitha Pai       | Sanjana      | Sasi              | Salman          |
 | Sweatha          | VK           | Sid (Siddharth)   | Sheetal         |
 | Vijay S          | Zen          | Sreelata Jonnala  | Shilpi          |
-|                  |              | Tanushree P       |                 |
+|                  | Aditya       | Tanushree P       |                 |
