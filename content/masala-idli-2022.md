@@ -4,8 +4,6 @@ date: 2022-03-30T07:30:19+05:30
 draft: false
 ---
 
-![MIL 2022 Poster](../images/mil-2022-poster.jpg)
-
 ## Points Table {#points}
 
 {{% include "./data/points-2022.md" %}}
@@ -28,6 +26,10 @@ Captains will be notified of any changes.
 ## League Format and Rules {#format-and-rules}
 
 {{% include "./data/rules-2022.md" %}}
+
+## Sign-up Poster {#poster}
+
+![MIL 2022 Poster](../images/mil-2022-poster.jpg)
 
 ## FAQ
 
