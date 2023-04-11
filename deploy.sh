@@ -41,6 +41,15 @@ deploy () {
     popd
 }
 
+# Update data
+update_data () {
+    git config user.email "punchagan+ghactions@muse-amuse.in"
+    git config user.name "punchagan (gh-actions)"
+    git add data/*.md
+    git commit -m "Update data [ci skip]" || echo "No new data fetched."
+    git push
+}
+
 # Build the site
 build () {
     rm -rf "${PUBLIC_DIR}"
@@ -51,4 +60,5 @@ pushd $(dirname $0)
 fetch_data
 build
 deploy
+update_data
 popd
