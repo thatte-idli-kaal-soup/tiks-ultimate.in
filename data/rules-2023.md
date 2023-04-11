@@ -93,7 +93,7 @@ Team with the highest number of Skill Play Points in the league stage will be aw
 
 **Previous Edition Rules**
 
--   Rules for the 2022 league are [[here]{.underline}](https://tiks-ultimate.in/masala-idli-2022/#rules)
+-   Rules for the 2022 league are [here](https://tiks-ultimate.in/masala-idli-2022/#rules)
 
 -   Rules for the 2019 League are [here](https://rsvp.tiks-ultimate.in/post/5c78efc951a13b000ab40941)
 
