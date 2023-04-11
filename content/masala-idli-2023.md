@@ -4,20 +4,20 @@ date: 2023-03-30T07:30:19+05:30
 draft: false
 ---
 
-<!-- ## Points Table {#points} -->
+## Points Table {#points}
 
-<!-- {{% include "./data/points-2023.md" %}} -->
+{{% include "./data/points-2023.md" %}}
 
-<!-- ## Match Scores {#scores} -->
+## Match Scores {#scores}
 
-<!-- {{% include "./data/scores-2023.md" %}} -->
+{{% include "./data/scores-2023.md" %}}
 
-<!-- ## Schedule {#schedule} -->
+## Schedule {#schedule}
 
-<!-- {{% include "./data/schedule-2023.md" %}} -->
+{{% include "./data/schedule-2023.md" %}}
 
-<!-- The schedule is *tentative* and is subject to change as the league progresses. -->
-<!-- Captains will be notified of any changes. -->
+The schedule is *tentative* and is subject to change as the league progresses.
+Captains will be notified of any changes.
 
 ## Teams {#teams}
 
