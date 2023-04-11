@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -exuo pipefail
 
 PUBLIC_DIR="public"
 
