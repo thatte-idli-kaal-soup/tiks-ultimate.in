@@ -6,7 +6,7 @@ PUBLIC_DIR="public"
 fetch_data () {
     # Rules
     curl -L "${RULES_2023}"  --output data/rules-2023.docx
-    pandoc data/rules-2023.docx -o data/rules-2023.md --shift-heading-level-by=1
+    pandoc data/rules-2023.docx -o data/rules-2023.md --shift-heading-level-by=1 --wrap=none
     # Teams
     curl -L "${TEAMS_2023}"  --output data/teams-2023.csv
     pandoc data/teams-2023.csv -o data/teams-2023.md -t gfm
