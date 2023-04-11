@@ -5,20 +5,20 @@ PUBLIC_DIR="public"
 
 fetch_data () {
     # Rules
-    curl -L "${RULES_2022}"  --output data/rules-2022.docx
-    pandoc data/rules-2022.docx -o data/rules-2022.md --shift-heading-level-by=1
+    curl -L "${RULES_2023}"  --output data/rules-2023.docx
+    pandoc data/rules-2023.docx -o data/rules-2023.md --shift-heading-level-by=1
     # Teams
-    curl -L "${TEAMS_2022}"  --output data/teams-2022.csv
-    pandoc data/teams-2022.csv -o data/teams-2022.md -t gfm
+    curl -L "${TEAMS_2023}"  --output data/teams-2023.csv
+    pandoc data/teams-2023.csv -o data/teams-2023.md -t gfm
     # Schedule
-    curl -L "${SCHEDULE_2022}"  --output data/schedule-2022.csv
-    pandoc data/schedule-2022.csv -o data/schedule-2022.md -t gfm
+    curl -L "${SCHEDULE_2023}"  --output data/schedule-2023.csv
+    pandoc data/schedule-2023.csv -o data/schedule-2023.md -t gfm
     # Points
-    curl -L "${POINTS_2022}"  --output data/points-2022.csv
-    pandoc data/points-2022.csv -o data/points-2022.md -t gfm
+    curl -L "${POINTS_2023}"  --output data/points-2023.csv
+    pandoc data/points-2023.csv -o data/points-2023.md -t gfm
     # Scores
-    curl -L "${SCORES_2022}"  --output data/scores-2022.csv
-    pandoc data/scores-2022.csv -o data/scores-2022.md -t gfm
+    curl -L "${SCORES_2023}"  --output data/scores-2023.csv
+    pandoc data/scores-2023.csv -o data/scores-2023.md -t gfm
 }
 
 # Push to GitHub

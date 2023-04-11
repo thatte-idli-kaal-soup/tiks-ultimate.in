@@ -36,10 +36,10 @@ jobs:
       - name: Build site and push to release branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          RULES_2022: ${{ secrets.RULES_2022 }}
-          TEAMS_2022: ${{ secrets.TEAMS_2022 }}
-          SCHEDULE_2022: ${{ secrets.SCHEDULE_2022 }}
-          POINTS_2022: ${{ secrets.POINTS_2022 }}
-          SCORES_2022: ${{ secrets.SCORES_2022 }}
+          RULES_2023: ${{ secrets.RULES_2023 }}
+          TEAMS_2023: ${{ secrets.TEAMS_2023 }}
+          SCHEDULE_2023: ${{ secrets.SCHEDULE_2023 }}
+          POINTS_2023: ${{ secrets.POINTS_2023 }}
+          SCORES_2023: ${{ secrets.SCORES_2023 }}
         run: |
           bash ./deploy.sh
