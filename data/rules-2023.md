@@ -4,7 +4,7 @@ Games will use the [WFDF Rules of Ultimate 2021-2024](https://rules.wfdf.org/) r
 
 ### Format
 
-We'll have both 4 v 4 games and 7 v 7 games.
+We'll have 7 v 7 games. In case of a tie-breaker, and time has exceeded, we can play 4v4 - race to 3.
 
 ### Target
 
