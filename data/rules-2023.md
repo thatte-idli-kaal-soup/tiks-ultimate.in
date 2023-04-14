@@ -4,7 +4,7 @@ Games will use the [WFDF Rules of Ultimate 2021-2024](https://rules.wfdf.org/) r
 
 ### Format
 
-We'll have 7 v 7 games. In case of a tie-breaker, and time has exceeded, we can play 4v4 - race to 3.
+We'll have 7 v 7 games. In case of a tie-breaker (even after considering skill points), and time has exceeded, we can play 4v4 - race to 3.
 
 ### Target
 
@@ -12,11 +12,11 @@ The game will be played until one of the team scores 9 points.
 
 ### Game Duration
 
-Games will be 35 minutes long. Games in NCJ will usually go from 6:25 am to 7 am, and 7:05 am to 7:40 am.
+Games will be 50 minutes long - Soft cap at 45m & hard cap at 50m. Games will happen at BBFS (HAL) from 7:00 AM to 7:50 AM, and 8:00 AM to 8:50 AM.
 
 ### Time cap 7 on 7
 
-The time/hard cap occurs after 30 minutes of game time, if the target has not been reached. At the time cap, play continues till the completion of the current point. If no team has reached the target (9), one goal is added to the highest score to determine the time cap target. Play continues until one of the teams reaches this time cap target before hard stop (at 35min).\
+The time/soft cap occurs after 45 minutes of game time, if the target has not been reached. At the time cap, play continues till the completion of the current point. If no team has reached the target (9), one goal is added to the highest score to determine the time cap target. Play continues until one of the teams reaches this time cap target before hard stop (at 50min).\
 Hard Stop at 35 min, Team with the Highest Point Wins.
 
 In case of a tie at hardstop, the team with the highest non-goal points wins. (See section below on Points)
@@ -85,9 +85,17 @@ Points will be awarded to teams in the following categories
 
 ### Tournament format
 
-Teams play 2 sets of round robin games 7v7 and 4v4.
+Teams play 1 set of round robin games of 7v7.
 
-The two teams with the highest points, play finals with just the on field scoring format
+After the round robin, teams will be reseeded and will play 2 Qualifier -
+
+Qualifier 1 - 1v2 - Winner goes to Finals. Loser gets another chance to make it to the finals in Qualifier 2.
+
+Eliminator 1 - 3v4 - Winner plays Qualifier 2. Loser has no chance to make it to the finals.
+
+Qualifier 2 - 2v3 - Winner makes it to the finals.
+
+Finals..
 
 Team with the highest number of Skill Play Points in the league stage will be awarded a prize.
 

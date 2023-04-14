@@ -1,4 +1,4 @@
-| Cutternak       | Uppi2         | Netflicks & Chill        | Throwjan Horses      |
+| Cutternak       | Upitwo        | Netflicks & Chill        | Throwjan Horses      |
 |-----------------|---------------|--------------------------|----------------------|
 | Chutki (C)      | Bhavana H S   | Anusha                   | Anaika               |
 | Haritha Saranga | Deepa K       | Haritha (C)              | Charm (C)            |
