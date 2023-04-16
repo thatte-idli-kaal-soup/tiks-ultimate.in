@@ -1,6 +1,6 @@
-| Team   | League Points | Skill Play Points |
-|--------|---------------|-------------------|
-| Team 1 | 0             | 0                 |
-| Team 2 | 0             | 0                 |
-| Team 3 | 0             | 0                 |
-| Team 4 | 0             | 0                 |
+| Team              | League Points | Skill Play Points |
+|-------------------|---------------|-------------------|
+| Netflicks & Chill | 0             | 0                 |
+| Throwjans         | 2             | 0                 |
+| Cutternak         | 0             | 0                 |
+| UpiTwo            | 2             | 0                 |
