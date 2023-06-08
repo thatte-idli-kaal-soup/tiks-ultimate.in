@@ -4,11 +4,11 @@ on:
     branches: [main]
   # Add run this workflow button to GH
   workflow_dispatch:
-  schedule:
-    # At 05:30 on every day-of-week from Sunday through Friday.
-    - cron: '30 5 * * 0-5'
-    # At every 15th minute past every hour from 0 through 10 on Saturday.
-    - cron: '*/15 1-7 * * 6'
+  # schedule:
+  #   # At 05:30 on every day-of-week from Sunday through Friday.
+  #   - cron: '30 5 * * 0-5'
+  #   # At every 15th minute past every hour from 0 through 10 on Saturday.
+  #   - cron: '*/15 1-7 * * 6'
 
 jobs:
   build_and_deploy_hugo_site:
