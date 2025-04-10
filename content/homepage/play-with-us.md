@@ -15,7 +15,7 @@ our sessions
 
 #### Where
 
-{{<icon class="fa fa-map-marker">}}&nbsp;&nbsp;[National College Jayanagar](https://goo.gl/maps/GQEfgcMru6MQSsqF8)
+{{<icon class="fa fa-map-marker">}}&nbsp;&nbsp;[National College Jayanagar](https://maps.app.goo.gl/ZXqn15URR7uTByyx9)
 
 #### When
 
