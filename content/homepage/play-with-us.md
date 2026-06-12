@@ -9,9 +9,9 @@ weight: 2
 header_menu: true
 ---
 
-Join us at our practices, you are welcome to join us irrespective of your age,
-gender or physical ability. We have players of all experience levels attending
-our sessions
+Join us at our pick-up practices! You are welcome to join us irrespective of
+your age, gender or physical ability. We have players of all experience levels
+attending our sessions.
 
 #### Where
 
@@ -19,6 +19,6 @@ our sessions
 
 #### When
 
-- Every Tuesday, Thursday and Saturday
+- Every Tuesday and Thursday (and sometimes other holidays)
 
 - 6:00 am to 7:45 am
