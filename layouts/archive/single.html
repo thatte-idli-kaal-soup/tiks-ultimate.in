@@ -1,20 +1,19 @@
 {{ define "main" }}
-  <main class="content page-template page-{{ .Slug }}" role="main">
+  <main class="content page-template page-{{ .Slug }}">
     <article class="post page">
       <header class="post-header">
-        <a id="blog-logo" href="{{ "/" | relURL }}">
-          {{ .Site.Title }}
-        </a>
+        {{ with .Parent }}
+          <a id="back-to-main-page" href="{{ .RelPermalink | relLangURL }}"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{ or .Title .Site.Title }}</a>
+        {{ end }}
       </header>
       <h1 class="post-title">{{ .Title }}</h1>
       <section class="post-content">
         {{ .Content }}
       </section>
-      <!-- if author and date are definded -->
-      {{ if and .Params.author .Date }}
+      {{ if or .Params.author .Date }}
       <div class="post-footer">
-          <p>Published on {{ .Date.Format "January 2, 2006" }}</p>
-          <span class="author">By {{ with .Params.author }}{{ . }}{{ else }}Unknown Author{{ end }}</span>
+          {{ with .Date }}<p>Published on {{ .Format "January 2, 2006" }}</p>{{ end }}
+          {{ with .Params.author }}<span class="author">By {{ . }}</span>{{ end }}
       </div>
       {{ end }}
     </article>
