@@ -53,7 +53,7 @@ update_data () {
 # Build the site
 build () {
     rm -rf "${PUBLIC_DIR}"
-    hugo
+    ./hugo.sh build
 }
 
 pushd $(dirname $0)
