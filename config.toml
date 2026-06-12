@@ -39,5 +39,39 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
     # You can turn it off, but we would really appreciate if you don’t :-)
     hidedesignbyline = true
 
+    [params.footer]
+      showFooterLinks = false
+      showContactIcons = true
+
+    [[params.contacts]]
+      icon = "fa-brands fa-whatsapp"
+      url = "https://chat.whatsapp.com/BtFckWSu2WPJ5I8XP4ihPJ"
+      label = "WhatsApp"
+
+    [[params.contacts]]
+      icon = "fa-brands fa-instagram"
+      url = "https://instagram.com/tiks_ultimate"
+      label = "Instagram"
+
+    [[params.contacts]]
+      icon = "fa fa-envelope"
+      url = "mailto:tiks.india.ultimate@gmail.com"
+      label = "Email"
+
+    [[params.contacts]]
+      icon = "fa-brands fa-facebook"
+      url = "https://facebook.com/Thatte-Idli-Kaal-Soup-448323595322728"
+      label = "Facebook"
+
+    [[params.contacts]]
+      icon = "fa-brands fa-youtube"
+      url = "https://www.youtube.com/channel/UCq1eqfGIwd2Emnqy165FoTw"
+      label = "YouTube"
+
+    [[params.contacts]]
+      icon = "fa-brands fa-github"
+      url = "https://github.com/thatte-idli-kaal-soup"
+      label = "GitHub"
+
     [params.meta]
       keywords =  "ultimate, frisbee, bangalore, sports, flying disc, tiks, tiks ultimate, ultimate frisbee, mixed gender, thatte idli, thatte idli kaal soup, bengaluru, south bangalore, jayanagar, non-contact"

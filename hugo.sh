@@ -3,7 +3,7 @@
 set -euo pipefail
 
 # Specify the version of Hugo you want
-HUGO_VERSION="0.96.0"  # Freeze hugo version to avoid breakages!
+HUGO_VERSION="0.163.1"  # Freeze hugo version to avoid breakages!
 
 HUGO_BIN_DIR="./bin"
 HUGO_BIN="$HUGO_BIN_DIR/hugo"
