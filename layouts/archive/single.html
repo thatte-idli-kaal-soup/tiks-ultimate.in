@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <main class="content page-template page-{{ .Slug }}" role="main">
+    <article class="post page">
+      <header class="post-header">
+        <a id="blog-logo" href="{{ "/" | relURL }}">
+          {{ .Site.Title }}
+        </a>
+      </header>
+      <h1 class="post-title">{{ .Title }}</h1>
+      <section class="post-content">
+        {{ .Content }}
+      </section>
+      <!-- if author and date are definded -->
+      {{ if and .Params.author .Date }}
+      <div class="post-footer">
+          <p>Published on {{ .Date.Format "January 2, 2006" }}</p>
+          <span class="author">By {{ with .Params.author }}{{ . }}{{ else }}Unknown Author{{ end }}</span>
+      </div>
+      {{ end }}
+    </article>
+  </main>
+{{ end }}
