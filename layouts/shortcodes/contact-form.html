@@ -1,0 +1,132 @@
+{{/*
+  Google Form entry IDs — fill these in after creating the form.
+  To find entry IDs: open the form, right-click > Inspect, submit a test response
+  and look for entry.XXXXXXXXX in the network request, or use the pre-filled link trick.
+
+  Form action URL format: https://docs.google.com/forms/d/FORM_ID/formResponse
+*/}}
+{{ $formAction := "https://docs.google.com/forms/d/e/1FAIpQLScXmgicnEQ1SocHzwwYCjnGLIyYgyHUahNI3SrPM8nsacrRHA/formResponse" }}
+{{ $entryName    := "entry.396612684" }}
+{{ $entryContact := "entry.1299278411" }}
+{{ $entrySubject := "entry.720659808" }}
+{{ $entryMessage := "entry.1556984709" }}
+
+<style>
+#tiks-contact-form {
+  max-width: 480px;
+}
+#tiks-contact-form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+#tiks-contact-form label {
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+#tiks-contact-form input[type="text"],
+#tiks-contact-form textarea {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+}
+#tiks-contact-form input[type="text"]:focus,
+#tiks-contact-form textarea:focus {
+  outline: none;
+  border-color: var(--highlight, #e67e22);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--highlight, #e67e22) 20%, transparent);
+}
+#tiks-contact-form textarea {
+  resize: vertical;
+}
+#tiks-contact-form .cf-honeypot {
+  font-size: 0.75rem;
+  opacity: 0.4;
+}
+#tiks-contact-form .cf-honeypot label {
+  font-weight: normal;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.4rem;
+  display: flex;
+}
+#tiks-contact-form button[type="submit"] {
+  padding: 0.6rem 1.8rem;
+  background-color: var(--highlight, #e67e22);
+  color: var(--highlight-contrast, #fff);
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+#tiks-contact-form button[type="submit"]:hover {
+  background-color: var(--highlight-inverse, #c0392b);
+  color: var(--highlight-inverse-contrast, #fff);
+}
+#cf-status {
+  margin-top: 0.75rem;
+  font-style: italic;
+}
+</style>
+
+<form id="tiks-contact-form">
+  <div class="form-group">
+    <label for="cf-name">Name</label>
+    <input type="text" id="cf-name" name="{{ $entryName }}" required placeholder="Your name" />
+  </div>
+  <div class="form-group">
+    <label for="cf-contact">Email or WhatsApp number</label>
+    <input type="text" id="cf-contact" name="{{ $entryContact }}" required placeholder="email@example.com or +91 98765 43210" />
+  </div>
+  <div class="form-group">
+    <label for="cf-subject">Subject</label>
+    <input type="text" id="cf-subject" name="{{ $entrySubject }}" required placeholder="What's this about?" />
+  </div>
+  <div class="form-group">
+    <label for="cf-message">Message</label>
+    <textarea id="cf-message" name="{{ $entryMessage }}" required rows="5" placeholder="Your message..."></textarea>
+  </div>
+  <div class="form-group cf-honeypot">
+    <label for="cf-bot">
+      <input type="checkbox" id="cf-bot" /> Leave this unchecked
+    </label>
+  </div>
+  <button type="submit">Send</button>
+</form>
+<p id="cf-status" aria-live="polite"></p>
+
+<script>
+(function () {
+  var form = document.getElementById("tiks-contact-form");
+  var status = document.getElementById("cf-status");
+  var honeypot = document.getElementById("cf-bot");
+  var action = {{ $formAction }};
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    if (honeypot.checked) {
+      form.style.display = "none";
+      status.textContent = "Thanks! But, is the checkbox unchecked?";
+      return;
+    }
+    status.textContent = "Sending…";
+    var data = new FormData(form);
+    fetch(action, { method: "POST", body: data, mode: "no-cors" })
+      .then(function () {
+        form.style.display = "none";
+        status.textContent = "Thanks! We'll get back to you soon.";
+      })
+      .catch(function () {
+        status.textContent = "Something went wrong. Please try again or reach out on WhatsApp.";
+      });
+  });
+})();
+</script>

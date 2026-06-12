@@ -1,4 +1,5 @@
 public/
+/.clasp.json
 /node_modules/
 /data/*.docx
 /data/schedule-2022.csv
