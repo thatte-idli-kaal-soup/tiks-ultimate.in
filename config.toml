@@ -75,3 +75,6 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
 
     [params.meta]
       keywords =  "ultimate, frisbee, bangalore, sports, flying disc, tiks, tiks ultimate, ultimate frisbee, mixed gender, thatte idli, thatte idli kaal soup, bengaluru, south bangalore, jayanagar, non-contact"
+
+[markup.goldmark.renderer]
+    unsafe = true
