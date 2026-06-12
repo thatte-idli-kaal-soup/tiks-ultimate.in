@@ -40,7 +40,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
     hidedesignbyline = true
 
     [params.footer]
-      showFooterLinks = false
+      showFooterLinks = true
       showContactIcons = true
 
     [[params.contacts]]
