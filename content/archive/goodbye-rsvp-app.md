@@ -8,16 +8,16 @@ author = "Punch"
 
 8 years ago, we tried an experiment at [Rajan]'s suggestion. We forked a baby
 open source app and made it [our own]. We just started with the idea of making
-the WhatsApp group less noisy with all the call-ins, but over these years we
-added a whole bunch of features with ideas from y'all, like Google based
-logins, posts for long-lived content, media sharing, shared calendar, Secret
-Santa, etc.
+the WhatsApp group less noisy by cutting down all the RSVPs aka call-ins, but
+over these years we added a whole bunch of features with ideas from y'all, like
+Google based logins, posts for long-lived content, media sharing, shared
+calendar, Secret Santa, etc.
 
 In the last couple of years, the app hasn't been getting enough love. A
 plain-old RSVP app shouldn't need much, but we added a bunch of personally
-identifiable information (PII) to the app, to make team management easier. I
+identifiable information (PII) to the app to make team management easier. I
 have been worrying about all this PII for months now. We now have a new app
-from [KUPA] who will do this properly now.
+by [KUPA] who will do this properly!
 
 As a goodbye, I thought it'd be fun to write up a summary post.
 
@@ -31,9 +31,9 @@ features that we felt would make it easier to manage the team.
 Obviously, the Events and the RSVP feature was the most used. In a span of 8
 years, we had around ~1300 events -- most of them are practices that actually
 happened, but some cancelled ones too alongside other events like tournament
-call-ins, Secret Santa lists to some bachelorette parties and wedding reception
-RSVPs too! I was so happy to see that the most attended event happened to be
-the 10th Anniversary Celebration of TIKS. 🎉
+call-ins, Secret Santa lists, bachelorette party and wedding reception RSVPs
+too! I was so happy to see that the most attended event happened to be the 10th
+Anniversary Celebration of TIKS. 🎉
 
 1150+ practices across 420 weeks averages to about 2.8 sessions per
 week, which is crazy considering the multiple waves of COVID-19 and the fact
@@ -62,22 +62,21 @@ of Fire.
 ### Posts
 
 We added the posts functionality to share messages with longer-term value in a
-place where they wouldn't get buried and lost in the WhatsApp chat. But, we
-only had 40 posts overall, a bunch of which were re-shared articles we'd found
-elsewhere.
+place where they wouldn't get buried in the WhatsApp chat. But, we only had 40
+posts overall, a bunch of which were re-shared articles we'd found elsewhere.
 
 I've archived 3 articles written by humans in the pre-AI era, [on this site],
 even if just for AI to now learn from 🤷. WhatsApp has a knack of making things
-feel "easier", or maybe we just don't mind it because of how much time we all
+feel "easier" or maybe we just don't mind it because of how much time we all
 seem to spend on it!
 
 ### Photos
 
 I've always felt that this feature wasn't used enough (to satisfy my urge to
 archive), but we've had 2600+ photos in 65 or so albums shared via the app.
-About 8 albums a year, doesn't sound that bad at all!
+About 8 albums a year, doesn't sound that bad!
 
-There was certainly some friction in uploading media via this app in a large
+There was certainly some friction in uploading media via this app, in a large
 part because I chose to use Google Drive as a storage and permission mechanism
 and not do our own media store. It meant we had limited control on the share
 workflow and whose Google Drive storage limits get used. But, it is also this
@@ -138,7 +137,7 @@ See you on the field!
 [appendix]: #photo-appendix
 [Zulip]: https://zulip.com
 [bot]: https://github.com/thatte-idli-kaal-soup/namma-bots/
-[One All]: https://one-all.in/donate/
+[One All]: https://one-all.in/supportus/
 [Y-Ultimate]: https://www.yultimate.org/donate/
 [Project KHEL]: https://projectkhel.org/donate/
 
